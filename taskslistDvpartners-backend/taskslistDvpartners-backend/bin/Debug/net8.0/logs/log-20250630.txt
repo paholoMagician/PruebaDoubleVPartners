@@ -1,0 +1,520 @@
+2025-06-30 13:08:49.970 -05:00 [INF] User profile is available. Using 'C:\Users\USUARIO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-30 13:08:50.022 -05:00 [WRN] The WebRootPath was not found: C:\Users\USUARIO\Documents\PruebaDoubleVPartners\taskslistDvpartners-backend\taskslistDvpartners-backend\wwwroot. Static files may be unavailable.
+2025-06-30 13:08:50.094 -05:00 [INF] Now listening on: https://localhost:7275
+2025-06-30 13:08:50.095 -05:00 [INF] Now listening on: http://localhost:5034
+2025-06-30 13:08:50.120 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-30 13:08:50.127 -05:00 [INF] Hosting environment: Development
+2025-06-30 13:08:50.128 -05:00 [INF] Content root path: C:\Users\USUARIO\Documents\PruebaDoubleVPartners\taskslistDvpartners-backend\taskslistDvpartners-backend
+2025-06-30 13:08:50.472 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/index.html - null null
+2025-06-30 13:08:50.579 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/index.html - 200 null text/html;charset=utf-8 108.5259ms
+2025-06-30 13:08:50.702 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-30 13:08:50.702 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_vs/browserLink - null null
+2025-06-30 13:08:50.708 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 5.9978ms
+2025-06-30 13:08:50.727 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.7464ms
+2025-06-30 13:08:50.996 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - null null
+2025-06-30 13:08:51.079 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 82.7984ms
+2025-06-30 13:09:14.541 -05:00 [INF] Request starting HTTP/2 POST https://localhost:7275/api/Login/login - application/json-patch+json 56
+2025-06-30 13:09:14.551 -05:00 [INF] CORS policy execution failed.
+2025-06-30 13:09:14.553 -05:00 [INF] Request origin https://localhost:7275 does not have permission to access the resource.
+2025-06-30 13:09:14.591 -05:00 [INF] Executing endpoint 'taskslistDvpartners_backend.Controllers.login.LoginController.Login (taskslistDvpartners-backend)'
+2025-06-30 13:09:14.629 -05:00 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(taskslistDvpartners_backend.ModelsDto.LoginRequestDto) on controller taskslistDvpartners_backend.Controllers.login.LoginController (taskslistDvpartners-backend).
+2025-06-30 13:09:16.162 -05:00 [INF] Executed DbCommand (53ms) [Parameters=[@__loginDto_Email_0='?' (Size = 120) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[id], [u].[email], [u].[estado], [u].[fecrea], [u].[nombres], [u].[password], [u].[rol], [u].[usercrea]
+FROM [users] AS [u]
+WHERE [u].[email] = @__loginDto_Email_0
+2025-06-30 13:09:16.246 -05:00 [INF] Usuario admin@mail.com ha iniciado sesión exitosamente.
+2025-06-30 13:09:16.259 -05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-06-30 13:09:16.310 -05:00 [INF] Executed action taskslistDvpartners_backend.Controllers.login.LoginController.Login (taskslistDvpartners-backend) in 1666.1382ms
+2025-06-30 13:09:16.312 -05:00 [INF] Executed endpoint 'taskslistDvpartners_backend.Controllers.login.LoginController.Login (taskslistDvpartners-backend)'
+2025-06-30 13:09:16.326 -05:00 [INF] Request finished HTTP/2 POST https://localhost:7275/api/Login/login - 200 297 application/json; charset=utf-8 1784.7999ms
+2025-06-30 13:10:15.852 -05:00 [INF] Request starting HTTP/2 POST https://localhost:7275/api/Login/login - application/json-patch+json 55
+2025-06-30 13:10:15.862 -05:00 [INF] CORS policy execution failed.
+2025-06-30 13:10:15.865 -05:00 [INF] Request origin https://localhost:7275 does not have permission to access the resource.
+2025-06-30 13:10:15.871 -05:00 [INF] Executing endpoint 'taskslistDvpartners_backend.Controllers.login.LoginController.Login (taskslistDvpartners-backend)'
+2025-06-30 13:10:15.874 -05:00 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(taskslistDvpartners_backend.ModelsDto.LoginRequestDto) on controller taskslistDvpartners_backend.Controllers.login.LoginController (taskslistDvpartners-backend).
+2025-06-30 13:10:15.925 -05:00 [INF] Executed DbCommand (7ms) [Parameters=[@__loginDto_Email_0='?' (Size = 120) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[id], [u].[email], [u].[estado], [u].[fecrea], [u].[nombres], [u].[password], [u].[rol], [u].[usercrea]
+FROM [users] AS [u]
+WHERE [u].[email] = @__loginDto_Email_0
+2025-06-30 13:10:15.931 -05:00 [WRN] Intento de login fallido para el email: admin@mail.com. Contraseña incorrecta.
+2025-06-30 13:10:15.936 -05:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'System.String'.
+2025-06-30 13:10:15.946 -05:00 [INF] Executed action taskslistDvpartners_backend.Controllers.login.LoginController.Login (taskslistDvpartners-backend) in 64.8939ms
+2025-06-30 13:10:15.951 -05:00 [INF] Executed endpoint 'taskslistDvpartners_backend.Controllers.login.LoginController.Login (taskslistDvpartners-backend)'
+2025-06-30 13:10:15.953 -05:00 [INF] Request finished HTTP/2 POST https://localhost:7275/api/Login/login - 401 null text/plain; charset=utf-8 101.3852ms
+2025-06-30 13:12:39.691 -05:00 [INF] User profile is available. Using 'C:\Users\USUARIO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-30 13:12:39.760 -05:00 [WRN] The WebRootPath was not found: C:\Users\USUARIO\Documents\PruebaDoubleVPartners\taskslistDvpartners-backend\taskslistDvpartners-backend\wwwroot. Static files may be unavailable.
+2025-06-30 13:12:39.804 -05:00 [INF] Now listening on: https://localhost:7275
+2025-06-30 13:12:39.805 -05:00 [INF] Now listening on: http://localhost:5034
+2025-06-30 13:12:39.832 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-30 13:12:39.834 -05:00 [INF] Hosting environment: Development
+2025-06-30 13:12:39.837 -05:00 [INF] Content root path: C:\Users\USUARIO\Documents\PruebaDoubleVPartners\taskslistDvpartners-backend\taskslistDvpartners-backend
+2025-06-30 13:12:39.896 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/index.html - null null
+2025-06-30 13:12:40.004 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/index.html - 200 null text/html;charset=utf-8 109.1044ms
+2025-06-30 13:12:40.344 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-30 13:12:40.344 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_vs/browserLink - null null
+2025-06-30 13:12:40.349 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 5.3528ms
+2025-06-30 13:12:40.393 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_vs/browserLink - 200 null text/javascript; charset=UTF-8 49.2901ms
+2025-06-30 13:12:40.728 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - null null
+2025-06-30 13:12:40.807 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 79.2298ms
+2025-06-30 13:13:38.443 -05:00 [INF] User profile is available. Using 'C:\Users\USUARIO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-30 13:13:38.560 -05:00 [INF] Now listening on: https://localhost:7275
+2025-06-30 13:13:38.562 -05:00 [INF] Now listening on: http://localhost:5034
+2025-06-30 13:13:38.589 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-30 13:13:38.592 -05:00 [INF] Hosting environment: Development
+2025-06-30 13:13:38.593 -05:00 [INF] Content root path: C:\Users\USUARIO\Documents\PruebaDoubleVPartners\taskslistDvpartners-backend\taskslistDvpartners-backend
+2025-06-30 13:13:39.277 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/index.html - null null
+2025-06-30 13:13:39.368 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/index.html - 200 null text/html;charset=utf-8 91.9159ms
+2025-06-30 13:13:39.403 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_vs/browserLink - null null
+2025-06-30 13:13:39.404 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-30 13:13:39.428 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 24.2258ms
+2025-06-30 13:13:39.448 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_vs/browserLink - 200 null text/javascript; charset=UTF-8 45.2704ms
+2025-06-30 13:13:39.675 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - null null
+2025-06-30 13:13:39.742 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 66.7545ms
+2025-06-30 13:13:53.128 -05:00 [INF] User profile is available. Using 'C:\Users\USUARIO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-30 13:13:53.236 -05:00 [INF] Now listening on: https://localhost:7275
+2025-06-30 13:13:53.237 -05:00 [INF] Now listening on: http://localhost:5034
+2025-06-30 13:13:53.263 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-30 13:13:53.264 -05:00 [INF] Hosting environment: Development
+2025-06-30 13:13:53.265 -05:00 [INF] Content root path: C:\Users\USUARIO\Documents\PruebaDoubleVPartners\taskslistDvpartners-backend\taskslistDvpartners-backend
+2025-06-30 13:13:53.748 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/index.html - null null
+2025-06-30 13:13:53.892 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/index.html - 200 null text/html;charset=utf-8 144.7015ms
+2025-06-30 13:13:53.910 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_vs/browserLink - null null
+2025-06-30 13:13:53.910 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-30 13:13:53.919 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 8.6525ms
+2025-06-30 13:13:53.933 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.3175ms
+2025-06-30 13:13:54.084 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - null null
+2025-06-30 13:13:54.177 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 93.4086ms
+2025-06-30 13:14:20.405 -05:00 [INF] Request starting HTTP/2 POST https://localhost:7275/api/Login/login - application/json-patch+json 43
+2025-06-30 13:14:20.416 -05:00 [INF] CORS policy execution failed.
+2025-06-30 13:14:20.417 -05:00 [INF] Request origin https://localhost:7275 does not have permission to access the resource.
+2025-06-30 13:14:20.465 -05:00 [INF] Executing endpoint 'taskslistDvpartners_backend.Controllers.login.LoginController.Login (taskslistDvpartners-backend)'
+2025-06-30 13:14:20.504 -05:00 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(taskslistDvpartners_backend.ModelsDto.LoginRequestDto) on controller taskslistDvpartners_backend.Controllers.login.LoginController (taskslistDvpartners-backend).
+2025-06-30 13:14:21.898 -05:00 [INF] Executed DbCommand (78ms) [Parameters=[@__loginDto_Email_0='?' (Size = 120) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[id], [u].[email], [u].[estado], [u].[fecrea], [u].[nombres], [u].[password], [u].[rol], [u].[usercrea]
+FROM [users] AS [u]
+WHERE [u].[email] = @__loginDto_Email_0
+2025-06-30 13:14:21.959 -05:00 [WRN] Intento de login fallido para el email: xxxx. Usuario no encontrado.
+2025-06-30 13:14:21.965 -05:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'System.String'.
+2025-06-30 13:14:21.971 -05:00 [INF] Executed action taskslistDvpartners_backend.Controllers.login.LoginController.Login (taskslistDvpartners-backend) in 1460.6237ms
+2025-06-30 13:14:21.972 -05:00 [INF] Executed endpoint 'taskslistDvpartners_backend.Controllers.login.LoginController.Login (taskslistDvpartners-backend)'
+2025-06-30 13:14:21.979 -05:00 [INF] Request finished HTTP/2 POST https://localhost:7275/api/Login/login - 401 null text/plain; charset=utf-8 1574.1646ms
+2025-06-30 13:15:01.922 -05:00 [INF] User profile is available. Using 'C:\Users\USUARIO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-30 13:15:02.015 -05:00 [INF] Now listening on: https://localhost:7275
+2025-06-30 13:15:02.018 -05:00 [INF] Now listening on: http://localhost:5034
+2025-06-30 13:15:02.048 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-30 13:15:02.051 -05:00 [INF] Hosting environment: Development
+2025-06-30 13:15:02.052 -05:00 [INF] Content root path: C:\Users\USUARIO\Documents\PruebaDoubleVPartners\taskslistDvpartners-backend\taskslistDvpartners-backend
+2025-06-30 13:15:02.130 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/index.html - null null
+2025-06-30 13:15:02.223 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/index.html - 200 null text/html;charset=utf-8 93.3863ms
+2025-06-30 13:15:02.247 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-30 13:15:02.247 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_vs/browserLink - null null
+2025-06-30 13:15:02.258 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 10.9662ms
+2025-06-30 13:15:02.308 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_vs/browserLink - 200 null text/javascript; charset=UTF-8 60.4813ms
+2025-06-30 13:15:02.461 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - null null
+2025-06-30 13:15:02.538 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 76.4823ms
+2025-06-30 13:16:22.059 -05:00 [INF] Request starting HTTP/2 POST https://localhost:7275/api/Login/login - application/json-patch+json 47
+2025-06-30 13:16:22.078 -05:00 [INF] CORS policy execution failed.
+2025-06-30 13:16:22.083 -05:00 [INF] Request origin https://localhost:7275 does not have permission to access the resource.
+2025-06-30 13:16:22.141 -05:00 [INF] Executing endpoint 'taskslistDvpartners_backend.Controllers.login.LoginController.Login (taskslistDvpartners-backend)'
+2025-06-30 13:16:22.193 -05:00 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(taskslistDvpartners_backend.ModelsDto.LoginRequestDto) on controller taskslistDvpartners_backend.Controllers.login.LoginController (taskslistDvpartners-backend).
+2025-06-30 13:16:23.670 -05:00 [INF] Executed DbCommand (50ms) [Parameters=[@__loginDto_Email_0='?' (Size = 120) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[id], [u].[email], [u].[estado], [u].[fecrea], [u].[nombres], [u].[password], [u].[rol], [u].[usercrea]
+FROM [users] AS [u]
+WHERE [u].[email] = @__loginDto_Email_0
+2025-06-30 13:16:23.722 -05:00 [WRN] Intento de login fallido para el email: string. Usuario no encontrado.
+2025-06-30 13:16:23.729 -05:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'System.String'.
+2025-06-30 13:16:23.750 -05:00 [INF] Executed action taskslistDvpartners_backend.Controllers.login.LoginController.Login (taskslistDvpartners-backend) in 1547.2504ms
+2025-06-30 13:16:23.754 -05:00 [INF] Executed endpoint 'taskslistDvpartners_backend.Controllers.login.LoginController.Login (taskslistDvpartners-backend)'
+2025-06-30 13:16:23.763 -05:00 [INF] Request finished HTTP/2 POST https://localhost:7275/api/Login/login - 401 null text/plain; charset=utf-8 1704.0038ms
+2025-06-30 13:17:08.768 -05:00 [INF] Request starting HTTP/2 POST https://localhost:7275/api/Login/login - application/json-patch+json 56
+2025-06-30 13:17:08.780 -05:00 [INF] CORS policy execution failed.
+2025-06-30 13:17:08.783 -05:00 [INF] Request origin https://localhost:7275 does not have permission to access the resource.
+2025-06-30 13:17:08.791 -05:00 [INF] Executing endpoint 'taskslistDvpartners_backend.Controllers.login.LoginController.Login (taskslistDvpartners-backend)'
+2025-06-30 13:17:08.797 -05:00 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(taskslistDvpartners_backend.ModelsDto.LoginRequestDto) on controller taskslistDvpartners_backend.Controllers.login.LoginController (taskslistDvpartners-backend).
+2025-06-30 13:17:08.863 -05:00 [INF] Executed DbCommand (6ms) [Parameters=[@__loginDto_Email_0='?' (Size = 120) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[id], [u].[email], [u].[estado], [u].[fecrea], [u].[nombres], [u].[password], [u].[rol], [u].[usercrea]
+FROM [users] AS [u]
+WHERE [u].[email] = @__loginDto_Email_0
+2025-06-30 13:17:08.934 -05:00 [INF] Usuario admin@mail.com ha iniciado sesión exitosamente.
+2025-06-30 13:17:08.939 -05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-06-30 13:17:08.996 -05:00 [INF] Executed action taskslistDvpartners_backend.Controllers.login.LoginController.Login (taskslistDvpartners-backend) in 194.1247ms
+2025-06-30 13:17:09.001 -05:00 [INF] Executed endpoint 'taskslistDvpartners_backend.Controllers.login.LoginController.Login (taskslistDvpartners-backend)'
+2025-06-30 13:17:09.004 -05:00 [INF] Request finished HTTP/2 POST https://localhost:7275/api/Login/login - 200 297 application/json; charset=utf-8 237.0045ms
+2025-06-30 14:22:48.461 -05:00 [INF] User profile is available. Using 'C:\Users\USUARIO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-30 14:22:48.562 -05:00 [INF] Now listening on: https://localhost:7275
+2025-06-30 14:22:48.564 -05:00 [INF] Now listening on: http://localhost:5034
+2025-06-30 14:22:48.587 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-30 14:22:48.588 -05:00 [INF] Hosting environment: Development
+2025-06-30 14:22:48.590 -05:00 [INF] Content root path: C:\Users\USUARIO\Documents\PruebaDoubleVPartners\taskslistDvpartners-backend\taskslistDvpartners-backend
+2025-06-30 14:22:49.037 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/index.html - null null
+2025-06-30 14:22:49.125 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/index.html - 200 null text/html;charset=utf-8 89.0886ms
+2025-06-30 14:22:49.164 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_vs/browserLink - null null
+2025-06-30 14:22:49.164 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-30 14:22:49.192 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 27.6039ms
+2025-06-30 14:22:49.218 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.8615ms
+2025-06-30 14:22:49.681 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - null null
+2025-06-30 14:22:49.773 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 92.0587ms
+2025-06-30 14:23:45.414 -05:00 [INF] User profile is available. Using 'C:\Users\USUARIO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-30 14:23:45.521 -05:00 [INF] Now listening on: https://localhost:7275
+2025-06-30 14:23:45.525 -05:00 [INF] Now listening on: http://localhost:5034
+2025-06-30 14:23:45.564 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-30 14:23:45.567 -05:00 [INF] Hosting environment: Development
+2025-06-30 14:23:45.568 -05:00 [INF] Content root path: C:\Users\USUARIO\Documents\PruebaDoubleVPartners\taskslistDvpartners-backend\taskslistDvpartners-backend
+2025-06-30 14:23:45.733 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/index.html - null null
+2025-06-30 14:23:45.853 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/index.html - 200 null text/html;charset=utf-8 121.0953ms
+2025-06-30 14:23:45.883 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-30 14:23:45.883 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_vs/browserLink - null null
+2025-06-30 14:23:45.905 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 22.1175ms
+2025-06-30 14:23:45.953 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_vs/browserLink - 200 null text/javascript; charset=UTF-8 69.9693ms
+2025-06-30 14:23:46.118 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - null null
+2025-06-30 14:23:46.176 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 58.2337ms
+2025-06-30 14:24:20.286 -05:00 [INF] User profile is available. Using 'C:\Users\USUARIO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-30 14:24:20.432 -05:00 [INF] Now listening on: https://localhost:7275
+2025-06-30 14:24:20.435 -05:00 [INF] Now listening on: http://localhost:5034
+2025-06-30 14:24:20.463 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-30 14:24:20.466 -05:00 [INF] Hosting environment: Development
+2025-06-30 14:24:20.468 -05:00 [INF] Content root path: C:\Users\USUARIO\Documents\PruebaDoubleVPartners\taskslistDvpartners-backend\taskslistDvpartners-backend
+2025-06-30 14:24:20.987 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/index.html - null null
+2025-06-30 14:24:21.098 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/index.html - 200 null text/html;charset=utf-8 111.919ms
+2025-06-30 14:24:21.123 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-30 14:24:21.123 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_vs/browserLink - null null
+2025-06-30 14:24:21.130 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 7.4274ms
+2025-06-30 14:24:21.150 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_vs/browserLink - 200 null text/javascript; charset=UTF-8 26.8313ms
+2025-06-30 14:24:21.302 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - null null
+2025-06-30 14:24:21.394 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 91.7986ms
+2025-06-30 14:24:51.898 -05:00 [INF] User profile is available. Using 'C:\Users\USUARIO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-30 14:24:51.993 -05:00 [INF] Now listening on: https://localhost:7275
+2025-06-30 14:24:51.995 -05:00 [INF] Now listening on: http://localhost:5034
+2025-06-30 14:24:52.025 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-30 14:24:52.030 -05:00 [INF] Hosting environment: Development
+2025-06-30 14:24:52.031 -05:00 [INF] Content root path: C:\Users\USUARIO\Documents\PruebaDoubleVPartners\taskslistDvpartners-backend\taskslistDvpartners-backend
+2025-06-30 14:24:52.246 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/index.html - null null
+2025-06-30 14:24:52.358 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/index.html - 200 null text/html;charset=utf-8 112.8468ms
+2025-06-30 14:24:52.388 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_vs/browserLink - null null
+2025-06-30 14:24:52.389 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-30 14:24:52.417 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 27.9229ms
+2025-06-30 14:24:52.455 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_vs/browserLink - 200 null text/javascript; charset=UTF-8 67.5676ms
+2025-06-30 14:24:52.616 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - null null
+2025-06-30 14:24:52.696 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 79.2195ms
+2025-06-30 14:25:08.214 -05:00 [INF] User profile is available. Using 'C:\Users\USUARIO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-30 14:25:08.319 -05:00 [INF] Now listening on: https://localhost:7275
+2025-06-30 14:25:08.321 -05:00 [INF] Now listening on: http://localhost:5034
+2025-06-30 14:25:08.353 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-30 14:25:08.356 -05:00 [INF] Hosting environment: Development
+2025-06-30 14:25:08.357 -05:00 [INF] Content root path: C:\Users\USUARIO\Documents\PruebaDoubleVPartners\taskslistDvpartners-backend\taskslistDvpartners-backend
+2025-06-30 14:25:30.603 -05:00 [INF] User profile is available. Using 'C:\Users\USUARIO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-30 14:25:30.709 -05:00 [INF] Now listening on: https://localhost:7275
+2025-06-30 14:25:30.712 -05:00 [INF] Now listening on: http://localhost:5034
+2025-06-30 14:25:30.742 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-30 14:25:30.745 -05:00 [INF] Hosting environment: Development
+2025-06-30 14:25:30.747 -05:00 [INF] Content root path: C:\Users\USUARIO\Documents\PruebaDoubleVPartners\taskslistDvpartners-backend\taskslistDvpartners-backend
+2025-06-30 14:25:31.278 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/index.html - null null
+2025-06-30 14:25:31.392 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/index.html - 200 null text/html;charset=utf-8 116.4883ms
+2025-06-30 14:25:31.412 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-30 14:25:31.420 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_vs/browserLink - null null
+2025-06-30 14:25:31.420 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 8.2348ms
+2025-06-30 14:25:31.443 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.3651ms
+2025-06-30 14:25:31.528 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - null null
+2025-06-30 14:25:31.587 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 58.8659ms
+2025-06-30 14:25:45.816 -05:00 [INF] User profile is available. Using 'C:\Users\USUARIO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-30 14:25:45.916 -05:00 [INF] Now listening on: https://localhost:7275
+2025-06-30 14:25:45.917 -05:00 [INF] Now listening on: http://localhost:5034
+2025-06-30 14:25:45.945 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-30 14:25:45.947 -05:00 [INF] Hosting environment: Development
+2025-06-30 14:25:45.950 -05:00 [INF] Content root path: C:\Users\USUARIO\Documents\PruebaDoubleVPartners\taskslistDvpartners-backend\taskslistDvpartners-backend
+2025-06-30 14:25:45.980 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/index.html - null null
+2025-06-30 14:25:46.067 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/index.html - 200 null text/html;charset=utf-8 87.4437ms
+2025-06-30 14:25:46.100 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-30 14:25:46.100 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_vs/browserLink - null null
+2025-06-30 14:25:46.117 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 16.6123ms
+2025-06-30 14:25:46.153 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_vs/browserLink - 200 null text/javascript; charset=UTF-8 52.6455ms
+2025-06-30 14:25:46.321 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - null null
+2025-06-30 14:25:46.398 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 77.4324ms
+2025-06-30 14:26:15.431 -05:00 [INF] Request starting HTTP/2 POST https://localhost:7275/api/Login/login - application/json-patch+json 56
+2025-06-30 14:26:15.455 -05:00 [INF] CORS policy execution failed.
+2025-06-30 14:26:15.458 -05:00 [INF] Request origin https://localhost:7275 does not have permission to access the resource.
+2025-06-30 14:26:15.497 -05:00 [INF] Executing endpoint 'taskslistDvpartners_backend.Controllers.login.LoginController.Login (taskslistDvpartners-backend)'
+2025-06-30 14:26:15.516 -05:00 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(taskslistDvpartners_backend.ModelsDto.LoginRequestDto) on controller taskslistDvpartners_backend.Controllers.login.LoginController (taskslistDvpartners-backend).
+2025-06-30 14:26:16.993 -05:00 [INF] Executed DbCommand (41ms) [Parameters=[@__loginDto_Email_0='?' (Size = 120) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[id], [u].[email], [u].[estado], [u].[fecrea], [u].[nombres], [u].[password], [u].[rol], [u].[usercrea]
+FROM [users] AS [u]
+WHERE [u].[email] = @__loginDto_Email_0
+2025-06-30 14:26:17.089 -05:00 [INF] Usuario admin@mail.com ha iniciado sesión exitosamente.
+2025-06-30 14:26:17.120 -05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-06-30 14:26:17.190 -05:00 [INF] Executed action taskslistDvpartners_backend.Controllers.login.LoginController.Login (taskslistDvpartners-backend) in 1667.625ms
+2025-06-30 14:26:17.195 -05:00 [INF] Executed endpoint 'taskslistDvpartners_backend.Controllers.login.LoginController.Login (taskslistDvpartners-backend)'
+2025-06-30 14:26:17.203 -05:00 [INF] Request finished HTTP/2 POST https://localhost:7275/api/Login/login - 200 297 application/json; charset=utf-8 1772.2592ms
+2025-06-30 14:26:26.067 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/api/Users/GetUsers/1 - null null
+2025-06-30 14:26:26.085 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-30 14:26:26.098 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-30 14:26:26.102 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/api/Users/GetUsers/1 - 401 0 null 35.5827ms
+2025-06-30 14:26:42.432 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - null null
+2025-06-30 14:26:42.464 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 31.8621ms
+2025-06-30 14:26:42.589 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/favicon.ico - null null
+2025-06-30 14:26:42.605 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/favicon.ico - 404 0 null 15.8169ms
+2025-06-30 14:26:42.615 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7275/favicon.ico, Response status code: 404
+2025-06-30 14:28:42.387 -05:00 [INF] User profile is available. Using 'C:\Users\USUARIO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-30 14:28:42.513 -05:00 [INF] Now listening on: https://localhost:7275
+2025-06-30 14:28:42.516 -05:00 [INF] Now listening on: http://localhost:5034
+2025-06-30 14:28:42.553 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-30 14:28:42.555 -05:00 [INF] Hosting environment: Development
+2025-06-30 14:28:42.557 -05:00 [INF] Content root path: C:\Users\USUARIO\Documents\PruebaDoubleVPartners\taskslistDvpartners-backend\taskslistDvpartners-backend
+2025-06-30 14:28:42.603 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/index.html - null null
+2025-06-30 14:28:42.698 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/index.html - 200 null text/html;charset=utf-8 94.8325ms
+2025-06-30 14:28:42.722 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_vs/browserLink - null null
+2025-06-30 14:28:42.722 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-30 14:28:42.731 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 8.6871ms
+2025-06-30 14:28:42.741 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.4629ms
+2025-06-30 14:28:43.106 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - null null
+2025-06-30 14:28:43.184 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 77.3316ms
+2025-06-30 14:29:09.250 -05:00 [INF] Request starting HTTP/2 POST https://localhost:7275/api/Login/login - application/json-patch+json 56
+2025-06-30 14:29:09.259 -05:00 [INF] CORS policy execution failed.
+2025-06-30 14:29:09.260 -05:00 [INF] Request origin https://localhost:7275 does not have permission to access the resource.
+2025-06-30 14:29:09.300 -05:00 [INF] Executing endpoint 'taskslistDvpartners_backend.Controllers.login.LoginController.Login (taskslistDvpartners-backend)'
+2025-06-30 14:29:09.319 -05:00 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(taskslistDvpartners_backend.ModelsDto.LoginRequestDto) on controller taskslistDvpartners_backend.Controllers.login.LoginController (taskslistDvpartners-backend).
+2025-06-30 14:29:10.505 -05:00 [INF] Executed DbCommand (49ms) [Parameters=[@__loginDto_Email_0='?' (Size = 120) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[id], [u].[email], [u].[estado], [u].[fecrea], [u].[nombres], [u].[password], [u].[rol], [u].[usercrea]
+FROM [users] AS [u]
+WHERE [u].[email] = @__loginDto_Email_0
+2025-06-30 14:29:10.609 -05:00 [INF] Usuario admin@mail.com ha iniciado sesión exitosamente.
+2025-06-30 14:29:10.626 -05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-06-30 14:29:10.664 -05:00 [INF] Executed action taskslistDvpartners_backend.Controllers.login.LoginController.Login (taskslistDvpartners-backend) in 1338.8221ms
+2025-06-30 14:29:10.668 -05:00 [INF] Executed endpoint 'taskslistDvpartners_backend.Controllers.login.LoginController.Login (taskslistDvpartners-backend)'
+2025-06-30 14:29:10.675 -05:00 [INF] Request finished HTTP/2 POST https://localhost:7275/api/Login/login - 200 297 application/json; charset=utf-8 1424.2655ms
+2025-06-30 14:29:35.109 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/api/Users/GetUsers/1 - null null
+2025-06-30 14:29:35.129 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'IDX10820: Invalid character found in Base64UrlEncoding. Character: '32', Encoding: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.')
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.Decode(String input, Int32 offset, Int32 length, Byte[] output)
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.Decode[T](String input, Int32 offset, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(String rawString, Int32 startIndex, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2025-06-30 14:29:35.162 -05:00 [INF] Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2025-06-30 14:29:35.175 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-30 14:29:35.190 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-30 14:29:35.194 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/api/Users/GetUsers/1 - 401 0 null 85.0985ms
+2025-06-30 14:29:54.519 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7275/api/Users/GetUsers/1 - null null
+2025-06-30 14:29:54.551 -05:00 [INF] Executing endpoint 'taskslistDvpartners_backend.Controllers.Users.UsersController.GetUsers (taskslistDvpartners-backend)'
+2025-06-30 14:29:54.561 -05:00 [INF] Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUsers(Int32) on controller taskslistDvpartners_backend.Controllers.Users.UsersController (taskslistDvpartners-backend).
+2025-06-30 14:29:54.611 -05:00 [INF] Executed DbCommand (10ms) [Parameters=[@__estado_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[id], [u].[email], [u].[estado], [u].[fecrea], [u].[nombres], [u].[password], [u].[rol], [u].[usercrea]
+FROM [users] AS [u]
+WHERE [u].[estado] = @__estado_0
+2025-06-30 14:29:54.616 -05:00 [INF] Se recuperaron 1 usuarios con estado 1.
+2025-06-30 14:29:54.619 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[taskslistDvpartners_backend.Models.Users, taskslistDvpartners-backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-30 14:29:54.638 -05:00 [INF] Executed action taskslistDvpartners_backend.Controllers.Users.UsersController.GetUsers (taskslistDvpartners-backend) in 75.7003ms
+2025-06-30 14:29:54.641 -05:00 [INF] Executed endpoint 'taskslistDvpartners_backend.Controllers.Users.UsersController.GetUsers (taskslistDvpartners-backend)'
+2025-06-30 14:29:54.643 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7275/api/Users/GetUsers/1 - 200 145 application/json; charset=utf-8 123.5674ms
+2025-06-30 14:37:12.531 -05:00 [INF] Request starting HTTP/2 POST https://localhost:7275/api/Login/login - application/json-patch+json 56
+2025-06-30 14:37:12.537 -05:00 [INF] CORS policy execution failed.
+2025-06-30 14:37:12.538 -05:00 [INF] Request origin https://localhost:7275 does not have permission to access the resource.
+2025-06-30 14:37:12.539 -05:00 [INF] Executing endpoint 'taskslistDvpartners_backend.Controllers.login.LoginController.Login (taskslistDvpartners-backend)'
+2025-06-30 14:37:12.543 -05:00 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(taskslistDvpartners_backend.ModelsDto.LoginRequestDto) on controller taskslistDvpartners_backend.Controllers.login.LoginController (taskslistDvpartners-backend).
+2025-06-30 14:37:12.640 -05:00 [INF] Executed DbCommand (5ms) [Parameters=[@__loginDto_Email_0='?' (Size = 120) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[id], [u].[email], [u].[estado], [u].[fecrea], [u].[nombres], [u].[password], [u].[rol], [u].[usercrea]
+FROM [users] AS [u]
+WHERE [u].[email] = @__loginDto_Email_0
+2025-06-30 14:37:12.644 -05:00 [INF] Usuario admin@mail.com ha iniciado sesión exitosamente.
+2025-06-30 14:37:12.646 -05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-06-30 14:37:12.649 -05:00 [INF] Executed action taskslistDvpartners_backend.Controllers.login.LoginController.Login (taskslistDvpartners-backend) in 104.3196ms
+2025-06-30 14:37:12.657 -05:00 [INF] Executed endpoint 'taskslistDvpartners_backend.Controllers.login.LoginController.Login (taskslistDvpartners-backend)'
+2025-06-30 14:37:12.659 -05:00 [INF] Request finished HTTP/2 POST https://localhost:7275/api/Login/login - 200 297 application/json; charset=utf-8 127.6036ms
+2025-06-30 14:47:50.723 -05:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: https://localhost:7275
+2025-06-30 14:47:50.747 -05:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: http://localhost:5034
+2025-06-30 14:47:50.775 -05:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2025-06-30 14:47:50.780 -05:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: Development
+2025-06-30 14:47:50.782 -05:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: C:\Users\USUARIO\Documents\PruebaDoubleVPartners\taskslistDvpartners-backend\taskslistDvpartners-backend
+2025-06-30 14:48:19.187 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 1 usuarios con estado 1.
+2025-06-30 15:24:41.457 -05:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: https://localhost:7275
+2025-06-30 15:24:41.479 -05:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: http://localhost:5034
+2025-06-30 15:24:41.506 -05:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2025-06-30 15:24:41.508 -05:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: Development
+2025-06-30 15:24:41.510 -05:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: C:\Users\USUARIO\Documents\PruebaDoubleVPartners\taskslistDvpartners-backend\taskslistDvpartners-backend
+2025-06-30 15:40:08.719 -05:00 [INF] (taskslistDvpartners_backend.Controllers.login.LoginController) Usuario admin@mail.com ha iniciado sesión exitosamente.
+2025-06-30 15:40:33.652 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 1 usuarios con estado 1.
+2025-06-30 15:41:25.025 -05:00 [ERR] (Microsoft.EntityFrameworkCore.Update) An exception occurred in the database while saving changes for context type 'taskslistDvpartners_backend.Models.taskslistDvpartnersContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated in table 'taskslistDvpartners.dbo.users', column 'password'. Truncated value: '$2a$12$56lrvgVwcO4JGD8IYS8Q/e2'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:1434a3f8-b787-49aa-9873-8156659e2b13
+Error Number:2628,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated in table 'taskslistDvpartners.dbo.users', column 'password'. Truncated value: '$2a$12$56lrvgVwcO4JGD8IYS8Q/e2'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:1434a3f8-b787-49aa-9873-8156659e2b13
+Error Number:2628,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-06-30 15:41:25.034 -05:00 [ERR] (taskslistDvpartners_backend.Controllers.Users.UsersController) Error al intentar crear un nuevo usuario con email: cvelastegui@mail.com.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated in table 'taskslistDvpartners.dbo.users', column 'password'. Truncated value: '$2a$12$56lrvgVwcO4JGD8IYS8Q/e2'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:1434a3f8-b787-49aa-9873-8156659e2b13
+Error Number:2628,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at taskslistDvpartners_backend.Controllers.Users.UsersController.CreateUser(UserCreateUpdateDto userDto) in C:\Users\USUARIO\Documents\PruebaDoubleVPartners\taskslistDvpartners-backend\taskslistDvpartners-backend\Controllers\Users\UsersController.cs:line 121
+2025-06-30 15:48:15.226 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Usuario 'cvelastegui@mail.com' creado exitosamente con ID: 3.
+2025-06-30 15:48:43.306 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 2 usuarios con estado 1.
+2025-06-30 15:49:25.694 -05:00 [WRN] (taskslistDvpartners_backend.Controllers.login.LoginController) Intento de login fallido para el email: cvelastegui@mail.com. Contraseña incorrecta.
+2025-06-30 15:51:02.902 -05:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: https://localhost:7275
+2025-06-30 15:51:03.001 -05:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: http://localhost:5034
+2025-06-30 15:51:03.033 -05:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2025-06-30 15:51:03.036 -05:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: Development
+2025-06-30 15:51:03.039 -05:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: C:\Users\USUARIO\Documents\PruebaDoubleVPartners\taskslistDvpartners-backend\taskslistDvpartners-backend
+2025-06-30 15:51:26.167 -05:00 [INF] (taskslistDvpartners_backend.Controllers.login.LoginController) Usuario cvelastegui@mail.com ha iniciado sesión exitosamente.
+2025-06-30 15:51:51.224 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 2 usuarios con estado 1.
+2025-06-30 15:53:30.915 -05:00 [ERR] (taskslistDvpartners_backend.Controllers.login.LoginController) Error durante el proceso de login.
+BCrypt.Net.SaltParseException: Invalid salt version
+   at BCrypt.Net.BCrypt.HashPassword(String inputKey, String salt, Boolean enhancedEntropy, HashType hashType)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at taskslistDvpartners_backend.Services.PasswordHasher.VerifyPassword(String password, String hashedPassword) in C:\Users\USUARIO\Documents\PruebaDoubleVPartners\taskslistDvpartners-backend\taskslistDvpartners-backend\Services\PasswordHasher.cs:line 15
+   at taskslistDvpartners_backend.Controllers.login.LoginController.Login(LoginRequestDto loginDto) in C:\Users\USUARIO\Documents\PruebaDoubleVPartners\taskslistDvpartners-backend\taskslistDvpartners-backend\Controllers\login\LoginController.cs:line 65
+2025-06-30 15:53:38.170 -05:00 [ERR] (taskslistDvpartners_backend.Controllers.login.LoginController) Error durante el proceso de login.
+BCrypt.Net.SaltParseException: Invalid salt version
+   at BCrypt.Net.BCrypt.HashPassword(String inputKey, String salt, Boolean enhancedEntropy, HashType hashType)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at taskslistDvpartners_backend.Services.PasswordHasher.VerifyPassword(String password, String hashedPassword) in C:\Users\USUARIO\Documents\PruebaDoubleVPartners\taskslistDvpartners-backend\taskslistDvpartners-backend\Services\PasswordHasher.cs:line 15
+   at taskslistDvpartners_backend.Controllers.login.LoginController.Login(LoginRequestDto loginDto) in C:\Users\USUARIO\Documents\PruebaDoubleVPartners\taskslistDvpartners-backend\taskslistDvpartners-backend\Controllers\login\LoginController.cs:line 65
+2025-06-30 15:54:25.047 -05:00 [INF] (taskslistDvpartners_backend.Controllers.login.LoginController) Usuario cvelastegui@mail.com ha iniciado sesión exitosamente.
+2025-06-30 15:54:46.221 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 2 usuarios con estado 1.
+2025-06-30 15:54:52.374 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Usuario 'bnova@mail.com' creado exitosamente con ID: 4.
+2025-06-30 15:56:00.156 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Usuario con ID 4 actualizado exitosamente.
+2025-06-30 15:56:22.864 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Usuario con ID 4 actualizado exitosamente.
+2025-06-30 15:56:42.299 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Usuario con ID 1 eliminado exitosamente.
+2025-06-30 16:01:41.972 -05:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: https://localhost:7275
+2025-06-30 16:01:41.993 -05:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: http://localhost:5034
+2025-06-30 16:01:42.018 -05:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2025-06-30 16:01:42.022 -05:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: Development
+2025-06-30 16:01:42.022 -05:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: C:\Users\USUARIO\Documents\PruebaDoubleVPartners\taskslistDvpartners-backend\taskslistDvpartners-backend
+2025-06-30 16:02:08.328 -05:00 [INF] (taskslistDvpartners_backend.Controllers.login.LoginController) Usuario bnova@mail.com ha iniciado sesión exitosamente.
+2025-06-30 16:02:31.391 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 2 usuarios con estado 1.
+2025-06-30 16:03:09.135 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Usuario 'aandrade@mail.com' creado exitosamente con ID: 5.
+2025-06-30 16:03:46.054 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Usuario con ID 5 actualizado exitosamente.
+2025-06-30 16:03:56.774 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Usuario con ID 5 eliminado lógicamente (estado 0) exitosamente.
+2025-06-30 16:04:29.433 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 2 usuarios con estado 1.
+2025-06-30 16:13:13.506 -05:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: https://localhost:7275
+2025-06-30 16:13:13.527 -05:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: http://localhost:5034
+2025-06-30 16:13:13.550 -05:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2025-06-30 16:13:13.552 -05:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: Development
+2025-06-30 16:13:13.553 -05:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: C:\Users\USUARIO\Documents\PruebaDoubleVPartners\taskslistDvpartners-backend\taskslistDvpartners-backend
+2025-06-30 16:13:44.890 -05:00 [WRN] (taskslistDvpartners_backend.Controllers.login.LoginController) Intento de login fallido para el email: bnova@mail.com. Contraseña incorrecta.
+2025-06-30 16:14:12.250 -05:00 [WRN] (taskslistDvpartners_backend.Controllers.login.LoginController) Intento de login fallido para el email: bnova@mail.com. Contraseña incorrecta.
+2025-06-30 16:14:23.231 -05:00 [WRN] (taskslistDvpartners_backend.Controllers.login.LoginController) Intento de login fallido para el email: bnova@mail.com. Contraseña incorrecta.
+2025-06-30 16:14:41.588 -05:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: https://localhost:7275
+2025-06-30 16:14:41.639 -05:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: http://localhost:5034
+2025-06-30 16:14:41.671 -05:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2025-06-30 16:14:41.674 -05:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: Development
+2025-06-30 16:14:41.675 -05:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: C:\Users\USUARIO\Documents\PruebaDoubleVPartners\taskslistDvpartners-backend\taskslistDvpartners-backend
+2025-06-30 16:14:49.722 -05:00 [ERR] (Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware) An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'taskslistDvpartners_backend.Services.IUsers.IUserService' while attempting to activate 'taskslistDvpartners_backend.Controllers.Users.UsersController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-30 16:16:14.102 -05:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: https://localhost:7275
+2025-06-30 16:16:14.125 -05:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: http://localhost:5034
+2025-06-30 16:16:14.152 -05:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2025-06-30 16:16:14.156 -05:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: Development
+2025-06-30 16:16:14.158 -05:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: C:\Users\USUARIO\Documents\PruebaDoubleVPartners\taskslistDvpartners-backend\taskslistDvpartners-backend
+2025-06-30 16:16:24.336 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 2 usuarios con estado 1.
+2025-06-30 16:16:44.763 -05:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: https://localhost:7275
+2025-06-30 16:16:44.787 -05:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: http://localhost:5034
+2025-06-30 16:16:44.814 -05:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2025-06-30 16:16:44.816 -05:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: Development
+2025-06-30 16:16:44.817 -05:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: C:\Users\USUARIO\Documents\PruebaDoubleVPartners\taskslistDvpartners-backend\taskslistDvpartners-backend
+2025-06-30 16:17:01.555 -05:00 [WRN] (taskslistDvpartners_backend.Controllers.login.LoginController) Intento de login fallido para el email: bnova@mail.com. Contraseña incorrecta.
+2025-06-30 16:17:09.030 -05:00 [WRN] (taskslistDvpartners_backend.Controllers.login.LoginController) Intento de login fallido para el email: bnova@mail.com. Contraseña incorrecta.
+2025-06-30 16:17:23.364 -05:00 [INF] (taskslistDvpartners_backend.Controllers.login.LoginController) Usuario cvelastegui@mail.com ha iniciado sesión exitosamente.
+2025-06-30 16:18:17.996 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Usuario 'rcarpio@mail.com' creado exitosamente con ID: 6.
+2025-06-30 16:19:27.795 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Usuario con ID 6 actualizado exitosamente.
+2025-06-30 16:20:05.276 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Usuario 'dpinzaon90@mail.com' creado exitosamente con ID: 7.
+2025-06-30 16:21:04.759 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Usuario con ID 7 eliminado lógicamente (estado 0) exitosamente.
+2025-06-30 16:50:31.881 -05:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: https://localhost:7275
+2025-06-30 16:50:31.904 -05:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: http://localhost:5034
+2025-06-30 16:50:31.931 -05:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2025-06-30 16:50:31.933 -05:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: Development
+2025-06-30 16:50:31.934 -05:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: C:\Users\USUARIO\Documents\PruebaDoubleVPartners\taskslistDvpartners-backend\taskslistDvpartners-backend

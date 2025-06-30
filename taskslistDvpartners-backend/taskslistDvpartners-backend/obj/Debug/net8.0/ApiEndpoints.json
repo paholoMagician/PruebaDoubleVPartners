@@ -1,0 +1,193 @@
+[
+  {
+    "ContainingType": "taskslistDvpartners_backend.Controllers.login.LoginController",
+    "Method": "Login",
+    "RelativePath": "api/Login/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "taskslistDvpartners_backend.ModelsDto.LoginRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController",
+    "Method": "GetTaskHeaderById",
+    "RelativePath": "api/TaskHeader/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController",
+    "Method": "CreateTaskHeader",
+    "RelativePath": "api/TaskHeader/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taskHeaderDto",
+        "Type": "taskslistDvpartners_backend.ModelsDto.TaskHeaderCreateUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController",
+    "Method": "SoftDeleteTaskHeader",
+    "RelativePath": "api/TaskHeader/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController",
+    "Method": "GetAllTaskHeaders",
+    "RelativePath": "api/TaskHeader/GetAll/{estado}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "estado",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController",
+    "Method": "UpdateTaskHeader",
+    "RelativePath": "api/TaskHeader/Update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "taskHeaderDto",
+        "Type": "taskslistDvpartners_backend.ModelsDto.TaskHeaderCreateUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "taskslistDvpartners_backend.Controllers.Users.UsersController",
+    "Method": "CreateUser",
+    "RelativePath": "api/Users/CreateUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDto",
+        "Type": "taskslistDvpartners_backend.ModelsDto.UserCreateUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "taskslistDvpartners_backend.Controllers.Users.UsersController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/Users/DeleteUser/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "taskslistDvpartners_backend.Controllers.Users.UsersController",
+    "Method": "GetUsers",
+    "RelativePath": "api/Users/GetUsers/{estado}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "estado",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "taskslistDvpartners_backend.Controllers.Users.UsersController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/Users/UpdateUser/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userDto",
+        "Type": "taskslistDvpartners_backend.ModelsDto.UserCreateUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "taskslistDvpartners_backend.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[taskslistDvpartners_backend.WeatherForecast, taskslistDvpartners-backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

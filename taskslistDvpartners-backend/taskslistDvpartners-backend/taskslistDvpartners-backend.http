@@ -1,0 +1,6 @@
+@taskslistDvpartners_backend_HostAddress = http://localhost:5034
+
+GET {{taskslistDvpartners_backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
