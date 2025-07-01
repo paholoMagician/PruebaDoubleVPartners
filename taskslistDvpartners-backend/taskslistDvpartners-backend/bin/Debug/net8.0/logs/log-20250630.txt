@@ -518,3 +518,31 @@ System.InvalidOperationException: Unable to resolve service for type 'taskslistD
 2025-06-30 16:50:31.931 -05:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
 2025-06-30 16:50:31.933 -05:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: Development
 2025-06-30 16:50:31.934 -05:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: C:\Users\USUARIO\Documents\PruebaDoubleVPartners\taskslistDvpartners-backend\taskslistDvpartners-backend
+2025-06-30 20:06:20.956 -05:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: https://localhost:7275
+2025-06-30 20:06:21.032 -05:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: http://localhost:5034
+2025-06-30 20:06:21.039 -05:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2025-06-30 20:06:21.042 -05:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: Development
+2025-06-30 20:06:21.045 -05:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: C:\Users\pahol\Desktop\PruebaDoubleVPartners\taskslistDvpartners-backend\taskslistDvpartners-backend
+2025-06-30 20:06:55.949 -05:00 [INF] (taskslistDvpartners_backend.Controllers.login.LoginController) Usuario bnova@mail.com ha iniciado sesión exitosamente.
+2025-06-30 20:10:21.702 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader 'Prueba de tarea' creado exitosamente con ID: 1.
+2025-06-30 20:11:43.566 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 1 actualizado exitosamente.
+2025-06-30 20:12:02.810 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 1 eliminado lógicamente (estado 0) exitosamente.
+2025-06-30 20:15:48.461 -05:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: https://localhost:7275
+2025-06-30 20:15:48.508 -05:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: http://localhost:5034
+2025-06-30 20:15:48.514 -05:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2025-06-30 20:15:48.516 -05:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: Development
+2025-06-30 20:15:48.518 -05:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: C:\Users\pahol\Desktop\PruebaDoubleVPartners\taskslistDvpartners-backend\taskslistDvpartners-backend
+2025-06-30 23:08:40.638 -05:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: https://localhost:7275
+2025-06-30 23:08:40.694 -05:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: http://localhost:5034
+2025-06-30 23:08:40.698 -05:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2025-06-30 23:08:40.700 -05:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: Development
+2025-06-30 23:08:40.702 -05:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: C:\Users\pahol\Desktop\PruebaDoubleVPartners\taskslistDvpartners-backend\taskslistDvpartners-backend
+2025-06-30 23:10:55.355 -05:00 [INF] (taskslistDvpartners_backend.Controllers.login.LoginController) Usuario bnova@mail.com ha iniciado sesión exitosamente.
+2025-06-30 23:12:17.974 -05:00 [WRN] (taskslistDvpartners_backend.Controllers.tasks.taskBody.TasksBodyController) Error al crear cuerpo de tarea (TasksBody): El encabezado de tarea con ID '1' no existe.
+2025-06-30 23:12:55.847 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader 'aaaa Prueba' creado exitosamente con ID: 2.
+2025-06-30 23:13:10.528 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskBody.TasksBodyController) Cuerpo de tarea (TasksBody) 'prueba' creado exitosamente con ID: 1.
+2025-06-30 23:43:30.911 -05:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: https://localhost:7275
+2025-06-30 23:43:30.944 -05:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: http://localhost:5034
+2025-06-30 23:43:30.947 -05:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2025-06-30 23:43:30.948 -05:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: Development
+2025-06-30 23:43:30.950 -05:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: C:\Users\pahol\Desktop\PruebaDoubleVPartners\taskslistDvpartners-backend\taskslistDvpartners-backend

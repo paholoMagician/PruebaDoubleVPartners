@@ -1,65 +1,85 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\USUARIO\\Documents\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\",
+  "WorkspaceRootPath": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|c:\\users\\usuario\\documents\\pruebadoublevpartners\\taskslistdvpartners-backend\\taskslistdvpartners-backend\\controllers\\tasks\\taskshead\\taskheadercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|solutionrelative:taskslistdvpartners-backend\\controllers\\tasks\\taskshead\\taskheadercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|c:\\users\\usuario\\documents\\pruebadoublevpartners\\taskslistdvpartners-backend\\taskslistdvpartners-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|solutionrelative:taskslistdvpartners-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|c:\\users\\usuario\\documents\\pruebadoublevpartners\\taskslistdvpartners-backend\\taskslistdvpartners-backend\\services\\itaskhead\\taskheaderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|solutionrelative:taskslistdvpartners-backend\\services\\itaskhead\\taskheaderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|c:\\users\\usuario\\documents\\pruebadoublevpartners\\taskslistdvpartners-backend\\taskslistdvpartners-backend\\services\\itaskhead\\itaskheaderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|solutionrelative:taskslistdvpartners-backend\\services\\itaskhead\\itaskheaderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|c:\\users\\usuario\\documents\\pruebadoublevpartners\\taskslistdvpartners-backend\\taskslistdvpartners-backend\\modelsdto\\taskheadercreateupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|solutionrelative:taskslistdvpartners-backend\\modelsdto\\taskheadercreateupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|c:\\users\\usuario\\documents\\pruebadoublevpartners\\taskslistdvpartners-backend\\taskslistdvpartners-backend\\models\\tasksheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|solutionrelative:taskslistdvpartners-backend\\models\\tasksheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|c:\\users\\usuario\\documents\\pruebadoublevpartners\\taskslistdvpartners-backend\\taskslistdvpartners-backend\\controllers\\users\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|solutionrelative:taskslistdvpartners-backend\\controllers\\users\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|c:\\users\\usuario\\documents\\pruebadoublevpartners\\taskslistdvpartners-backend\\taskslistdvpartners-backend\\services\\iusers\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|solutionrelative:taskslistdvpartners-backend\\services\\iusers\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|c:\\users\\usuario\\documents\\pruebadoublevpartners\\taskslistdvpartners-backend\\taskslistdvpartners-backend\\services\\iusers\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|solutionrelative:taskslistdvpartners-backend\\services\\iusers\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|c:\\users\\usuario\\documents\\pruebadoublevpartners\\taskslistdvpartners-backend\\taskslistdvpartners-backend\\controllers\\login\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|c:\\users\\pahol\\desktop\\pruebadoublevpartners\\taskslistdvpartners-backend\\taskslistdvpartners-backend\\controllers\\login\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|solutionrelative:taskslistdvpartners-backend\\controllers\\login\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|c:\\users\\usuario\\documents\\pruebadoublevpartners\\taskslistdvpartners-backend\\taskslistdvpartners-backend\\services\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|c:\\users\\pahol\\desktop\\pruebadoublevpartners\\taskslistdvpartners-backend\\taskslistdvpartners-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|solutionrelative:taskslistdvpartners-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|c:\\users\\pahol\\desktop\\pruebadoublevpartners\\taskslistdvpartners-backend\\taskslistdvpartners-backend\\controllers\\tasks\\taskbody\\tasksbodycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|solutionrelative:taskslistdvpartners-backend\\controllers\\tasks\\taskbody\\tasksbodycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|c:\\users\\pahol\\desktop\\pruebadoublevpartners\\taskslistdvpartners-backend\\taskslistdvpartners-backend\\services\\itaskbody\\tasksbodyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|solutionrelative:taskslistdvpartners-backend\\services\\itaskbody\\tasksbodyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|c:\\users\\pahol\\desktop\\pruebadoublevpartners\\taskslistdvpartners-backend\\taskslistdvpartners-backend\\services\\itaskbody\\itasksbodyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|solutionrelative:taskslistdvpartners-backend\\services\\itaskbody\\itasksbodyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|c:\\users\\pahol\\desktop\\pruebadoublevpartners\\taskslistdvpartners-backend\\taskslistdvpartners-backend\\modelsdto\\tasksbodycreateupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|solutionrelative:taskslistdvpartners-backend\\modelsdto\\tasksbodycreateupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|c:\\users\\pahol\\desktop\\pruebadoublevpartners\\taskslistdvpartners-backend\\taskslistdvpartners-backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|solutionrelative:taskslistdvpartners-backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|c:\\users\\pahol\\desktop\\pruebadoublevpartners\\taskslistdvpartners-backend\\taskslistdvpartners-backend\\controllers\\tasks\\taskshead\\taskheadercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|solutionrelative:taskslistdvpartners-backend\\controllers\\tasks\\taskshead\\taskheadercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|c:\\users\\pahol\\desktop\\pruebadoublevpartners\\taskslistdvpartners-backend\\taskslistdvpartners-backend\\services\\itaskhead\\taskheaderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|solutionrelative:taskslistdvpartners-backend\\services\\itaskhead\\taskheaderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|c:\\users\\pahol\\desktop\\pruebadoublevpartners\\taskslistdvpartners-backend\\taskslistdvpartners-backend\\services\\itaskhead\\itaskheaderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|solutionrelative:taskslistdvpartners-backend\\services\\itaskhead\\itaskheaderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|c:\\users\\pahol\\desktop\\pruebadoublevpartners\\taskslistdvpartners-backend\\taskslistdvpartners-backend\\modelsdto\\taskheadercreateupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|solutionrelative:taskslistdvpartners-backend\\modelsdto\\taskheadercreateupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|c:\\users\\pahol\\desktop\\pruebadoublevpartners\\taskslistdvpartners-backend\\taskslistdvpartners-backend\\models\\tasksheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|solutionrelative:taskslistdvpartners-backend\\models\\tasksheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|c:\\users\\pahol\\desktop\\pruebadoublevpartners\\taskslistdvpartners-backend\\taskslistdvpartners-backend\\controllers\\users\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|solutionrelative:taskslistdvpartners-backend\\controllers\\users\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|c:\\users\\pahol\\desktop\\pruebadoublevpartners\\taskslistdvpartners-backend\\taskslistdvpartners-backend\\services\\iusers\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|solutionrelative:taskslistdvpartners-backend\\services\\iusers\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|c:\\users\\pahol\\desktop\\pruebadoublevpartners\\taskslistdvpartners-backend\\taskslistdvpartners-backend\\services\\iusers\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|solutionrelative:taskslistdvpartners-backend\\services\\iusers\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|c:\\users\\pahol\\desktop\\pruebadoublevpartners\\taskslistdvpartners-backend\\taskslistdvpartners-backend\\services\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|solutionrelative:taskslistdvpartners-backend\\services\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|c:\\users\\usuario\\documents\\pruebadoublevpartners\\taskslistdvpartners-backend\\taskslistdvpartners-backend\\services\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|c:\\users\\pahol\\desktop\\pruebadoublevpartners\\taskslistdvpartners-backend\\taskslistdvpartners-backend\\services\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|solutionrelative:taskslistdvpartners-backend\\services\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|c:\\users\\usuario\\documents\\pruebadoublevpartners\\taskslistdvpartners-backend\\taskslistdvpartners-backend\\modelsdto\\paginatedresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|c:\\users\\pahol\\desktop\\pruebadoublevpartners\\taskslistdvpartners-backend\\taskslistdvpartners-backend\\modelsdto\\paginatedresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|solutionrelative:taskslistdvpartners-backend\\modelsdto\\paginatedresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|c:\\users\\usuario\\documents\\pruebadoublevpartners\\taskslistdvpartners-backend\\taskslistdvpartners-backend\\modelsdto\\usercreateupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|c:\\users\\pahol\\desktop\\pruebadoublevpartners\\taskslistdvpartners-backend\\taskslistdvpartners-backend\\modelsdto\\usercreateupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|solutionrelative:taskslistdvpartners-backend\\modelsdto\\usercreateupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|c:\\users\\usuario\\documents\\pruebadoublevpartners\\taskslistdvpartners-backend\\taskslistdvpartners-backend\\controllers\\files\\filemanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|c:\\users\\pahol\\desktop\\pruebadoublevpartners\\taskslistdvpartners-backend\\taskslistdvpartners-backend\\controllers\\files\\filemanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BE4CAE3-BA5B-4FC2-94E8-04CF6FDD65DB}|taskslistDvpartners-backend\\taskslistDvpartners-backend.csproj|solutionrelative:taskslistdvpartners-backend\\controllers\\files\\filemanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -70,202 +90,259 @@
       "DocumentGroups": [
         {
           "DockedWidth": 292,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TaskHeaderService.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Services\\ITaskHead\\TaskHeaderService.cs",
-              "RelativeDocumentMoniker": "taskslistDvpartners-backend\\Services\\ITaskHead\\TaskHeaderService.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Services\\ITaskHead\\TaskHeaderService.cs",
-              "RelativeToolTip": "taskslistDvpartners-backend\\Services\\ITaskHead\\TaskHeaderService.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAowEkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T21:43:14.474Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ITaskHeaderService.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Services\\ITaskHead\\ITaskHeaderService.cs",
-              "RelativeDocumentMoniker": "taskslistDvpartners-backend\\Services\\ITaskHead\\ITaskHeaderService.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Services\\ITaskHead\\ITaskHeaderService.cs",
-              "RelativeToolTip": "taskslistDvpartners-backend\\Services\\ITaskHead\\ITaskHeaderService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAvAAAAAAAAAA==",
+              "Title": "TasksBodyService.cs",
+              "DocumentMoniker": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Services\\ITaskBody\\TasksBodyService.cs",
+              "RelativeDocumentMoniker": "taskslistDvpartners-backend\\Services\\ITaskBody\\TasksBodyService.cs",
+              "ToolTip": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Services\\ITaskBody\\TasksBodyService.cs",
+              "RelativeToolTip": "taskslistDvpartners-backend\\Services\\ITaskBody\\TasksBodyService.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAuwGsAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T21:42:35.942Z",
+              "WhenOpened": "2025-07-01T03:16:28.23Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "TaskHeaderCreateUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\ModelsDto\\TaskHeaderCreateUpdateDto.cs",
-              "RelativeDocumentMoniker": "taskslistDvpartners-backend\\ModelsDto\\TaskHeaderCreateUpdateDto.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\ModelsDto\\TaskHeaderCreateUpdateDto.cs",
-              "RelativeToolTip": "taskslistDvpartners-backend\\ModelsDto\\TaskHeaderCreateUpdateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Title": "ITasksBodyService.cs",
+              "DocumentMoniker": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Services\\ITaskBody\\ITasksBodyService.cs",
+              "RelativeDocumentMoniker": "taskslistDvpartners-backend\\Services\\ITaskBody\\ITasksBodyService.cs",
+              "ToolTip": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Services\\ITaskBody\\ITasksBodyService.cs",
+              "RelativeToolTip": "taskslistDvpartners-backend\\Services\\ITaskBody\\ITasksBodyService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T21:40:16.213Z",
+              "WhenOpened": "2025-07-01T03:14:55.356Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TasksHeader.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Models\\TasksHeader.cs",
-              "RelativeDocumentMoniker": "taskslistDvpartners-backend\\Models\\TasksHeader.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Models\\TasksHeader.cs",
-              "RelativeToolTip": "taskslistDvpartners-backend\\Models\\TasksHeader.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "TasksBodyController.cs",
+              "DocumentMoniker": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Controllers\\tasks\\taskBody\\TasksBodyController.cs",
+              "RelativeDocumentMoniker": "taskslistDvpartners-backend\\Controllers\\tasks\\taskBody\\TasksBodyController.cs",
+              "ToolTip": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Controllers\\tasks\\taskBody\\TasksBodyController.cs",
+              "RelativeToolTip": "taskslistDvpartners-backend\\Controllers\\tasks\\taskBody\\TasksBodyController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAC0AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T21:39:40.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TaskHeaderController.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Controllers\\tasks\\taskshead\\TaskHeaderController.cs",
-              "RelativeDocumentMoniker": "taskslistDvpartners-backend\\Controllers\\tasks\\taskshead\\TaskHeaderController.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Controllers\\tasks\\taskshead\\TaskHeaderController.cs",
-              "RelativeToolTip": "taskslistDvpartners-backend\\Controllers\\tasks\\taskshead\\TaskHeaderController.cs",
-              "ViewState": "AgIAAI0AAAAAAAAAAAAowKIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T21:23:47.5Z",
+              "WhenOpened": "2025-07-01T01:16:14.536Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Program.cs",
               "RelativeDocumentMoniker": "taskslistDvpartners-backend\\Program.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Program.cs",
+              "ToolTip": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Program.cs",
               "RelativeToolTip": "taskslistDvpartners-backend\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAABEAAAAAAAAAA==",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAkwEcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-30T20:17:47.437Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Services\\IUsers\\UserService.cs",
-              "RelativeDocumentMoniker": "taskslistDvpartners-backend\\Services\\IUsers\\UserService.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Services\\IUsers\\UserService.cs",
-              "RelativeToolTip": "taskslistDvpartners-backend\\Services\\IUsers\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T21:11:58.687Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Services\\IUsers\\IUserService.cs",
-              "RelativeDocumentMoniker": "taskslistDvpartners-backend\\Services\\IUsers\\IUserService.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Services\\IUsers\\IUserService.cs",
-              "RelativeToolTip": "taskslistDvpartners-backend\\Services\\IUsers\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T21:11:17.926Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Controllers\\Users\\UsersController.cs",
-              "RelativeDocumentMoniker": "taskslistDvpartners-backend\\Controllers\\Users\\UsersController.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Controllers\\Users\\UsersController.cs",
-              "RelativeToolTip": "taskslistDvpartners-backend\\Controllers\\Users\\UsersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T19:10:18.898Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PasswordHasher.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Services\\PasswordHasher.cs",
-              "RelativeDocumentMoniker": "taskslistDvpartners-backend\\Services\\PasswordHasher.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Services\\PasswordHasher.cs",
-              "RelativeToolTip": "taskslistDvpartners-backend\\Services\\PasswordHasher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T20:15:21.768Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IPasswordHasher.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Services\\IPasswordHasher.cs",
-              "RelativeDocumentMoniker": "taskslistDvpartners-backend\\Services\\IPasswordHasher.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Services\\IPasswordHasher.cs",
-              "RelativeToolTip": "taskslistDvpartners-backend\\Services\\IPasswordHasher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T20:14:04.534Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "PaginatedResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\ModelsDto\\PaginatedResponseDto.cs",
-              "RelativeDocumentMoniker": "taskslistDvpartners-backend\\ModelsDto\\PaginatedResponseDto.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\ModelsDto\\PaginatedResponseDto.cs",
-              "RelativeToolTip": "taskslistDvpartners-backend\\ModelsDto\\PaginatedResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T19:40:37.659Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Controllers\\login\\LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Controllers\\login\\LoginController.cs",
               "RelativeDocumentMoniker": "taskslistDvpartners-backend\\Controllers\\login\\LoginController.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Controllers\\login\\LoginController.cs",
+              "ToolTip": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Controllers\\login\\LoginController.cs",
               "RelativeToolTip": "taskslistDvpartners-backend\\Controllers\\login\\LoginController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAA1wDMAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAqwHsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-30T19:11:22.58Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UserCreateUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\ModelsDto\\UserCreateUpdateDto.cs",
-              "RelativeDocumentMoniker": "taskslistDvpartners-backend\\ModelsDto\\UserCreateUpdateDto.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\ModelsDto\\UserCreateUpdateDto.cs",
-              "RelativeToolTip": "taskslistDvpartners-backend\\ModelsDto\\UserCreateUpdateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "TasksBodyCreateUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\ModelsDto\\TasksBodyCreateUpdateDto.cs",
+              "RelativeDocumentMoniker": "taskslistDvpartners-backend\\ModelsDto\\TasksBodyCreateUpdateDto.cs",
+              "ToolTip": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\ModelsDto\\TasksBodyCreateUpdateDto.cs",
+              "RelativeToolTip": "taskslistDvpartners-backend\\ModelsDto\\TasksBodyCreateUpdateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T19:54:37.062Z",
+              "WhenOpened": "2025-07-01T03:13:08.129Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\appsettings.json",
+              "RelativeDocumentMoniker": "taskslistDvpartners-backend\\appsettings.json",
+              "ToolTip": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\appsettings.json",
+              "RelativeToolTip": "taskslistDvpartners-backend\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-01T01:03:56.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ITaskHeaderService.cs",
+              "DocumentMoniker": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Services\\ITaskHead\\ITaskHeaderService.cs",
+              "RelativeDocumentMoniker": "taskslistDvpartners-backend\\Services\\ITaskHead\\ITaskHeaderService.cs",
+              "ToolTip": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Services\\ITaskHead\\ITaskHeaderService.cs",
+              "RelativeToolTip": "taskslistDvpartners-backend\\Services\\ITaskHead\\ITaskHeaderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T21:42:35.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TaskHeaderController.cs",
+              "DocumentMoniker": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Controllers\\tasks\\taskshead\\TaskHeaderController.cs",
+              "RelativeDocumentMoniker": "taskslistDvpartners-backend\\Controllers\\tasks\\taskshead\\TaskHeaderController.cs",
+              "ToolTip": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Controllers\\tasks\\taskshead\\TaskHeaderController.cs",
+              "RelativeToolTip": "taskslistDvpartners-backend\\Controllers\\tasks\\taskshead\\TaskHeaderController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAgwBAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T21:23:47.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TaskHeaderCreateUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\ModelsDto\\TaskHeaderCreateUpdateDto.cs",
+              "RelativeDocumentMoniker": "taskslistDvpartners-backend\\ModelsDto\\TaskHeaderCreateUpdateDto.cs",
+              "ToolTip": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\ModelsDto\\TaskHeaderCreateUpdateDto.cs",
+              "RelativeToolTip": "taskslistDvpartners-backend\\ModelsDto\\TaskHeaderCreateUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T21:40:16.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TaskHeaderService.cs",
+              "DocumentMoniker": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Services\\ITaskHead\\TaskHeaderService.cs",
+              "RelativeDocumentMoniker": "taskslistDvpartners-backend\\Services\\ITaskHead\\TaskHeaderService.cs",
+              "ToolTip": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Services\\ITaskHead\\TaskHeaderService.cs",
+              "RelativeToolTip": "taskslistDvpartners-backend\\Services\\ITaskHead\\TaskHeaderService.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T21:43:14.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TasksHeader.cs",
+              "DocumentMoniker": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Models\\TasksHeader.cs",
+              "RelativeDocumentMoniker": "taskslistDvpartners-backend\\Models\\TasksHeader.cs",
+              "ToolTip": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Models\\TasksHeader.cs",
+              "RelativeToolTip": "taskslistDvpartners-backend\\Models\\TasksHeader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T21:39:40.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Services\\IUsers\\UserService.cs",
+              "RelativeDocumentMoniker": "taskslistDvpartners-backend\\Services\\IUsers\\UserService.cs",
+              "ToolTip": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Services\\IUsers\\UserService.cs",
+              "RelativeToolTip": "taskslistDvpartners-backend\\Services\\IUsers\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T21:11:58.687Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Services\\IUsers\\IUserService.cs",
+              "RelativeDocumentMoniker": "taskslistDvpartners-backend\\Services\\IUsers\\IUserService.cs",
+              "ToolTip": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Services\\IUsers\\IUserService.cs",
+              "RelativeToolTip": "taskslistDvpartners-backend\\Services\\IUsers\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T21:11:17.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Controllers\\Users\\UsersController.cs",
+              "RelativeDocumentMoniker": "taskslistDvpartners-backend\\Controllers\\Users\\UsersController.cs",
+              "ToolTip": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Controllers\\Users\\UsersController.cs",
+              "RelativeToolTip": "taskslistDvpartners-backend\\Controllers\\Users\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T19:10:18.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Services\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "taskslistDvpartners-backend\\Services\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Services\\PasswordHasher.cs",
+              "RelativeToolTip": "taskslistDvpartners-backend\\Services\\PasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T20:15:21.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IPasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Services\\IPasswordHasher.cs",
+              "RelativeDocumentMoniker": "taskslistDvpartners-backend\\Services\\IPasswordHasher.cs",
+              "ToolTip": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Services\\IPasswordHasher.cs",
+              "RelativeToolTip": "taskslistDvpartners-backend\\Services\\IPasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T20:14:04.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PaginatedResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\ModelsDto\\PaginatedResponseDto.cs",
+              "RelativeDocumentMoniker": "taskslistDvpartners-backend\\ModelsDto\\PaginatedResponseDto.cs",
+              "ToolTip": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\ModelsDto\\PaginatedResponseDto.cs",
+              "RelativeToolTip": "taskslistDvpartners-backend\\ModelsDto\\PaginatedResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T19:40:37.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserCreateUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\ModelsDto\\UserCreateUpdateDto.cs",
+              "RelativeDocumentMoniker": "taskslistDvpartners-backend\\ModelsDto\\UserCreateUpdateDto.cs",
+              "ToolTip": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\ModelsDto\\UserCreateUpdateDto.cs",
+              "RelativeToolTip": "taskslistDvpartners-backend\\ModelsDto\\UserCreateUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T19:54:37.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "FileManagerController.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Controllers\\files\\FileManagerController.cs",
+              "DocumentMoniker": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Controllers\\files\\FileManagerController.cs",
               "RelativeDocumentMoniker": "taskslistDvpartners-backend\\Controllers\\files\\FileManagerController.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Controllers\\files\\FileManagerController.cs",
+              "ToolTip": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Controllers\\files\\FileManagerController.cs",
               "RelativeToolTip": "taskslistDvpartners-backend\\Controllers\\files\\FileManagerController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T18:59:51.825Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T18:59:51.825Z"
             }
           ]
         }

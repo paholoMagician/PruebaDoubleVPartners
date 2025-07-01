@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "a/9kZVzfXR/w49gJwahJL5zsnlN6sfaSmJ72uaRY7dM=",
+  "Hash": "Ib5D8kWlREAKeVZWaOOKyrsVt103Ho68UQYOT0PyLM4=",
   "Source": "taskslistDvpartners-backend",
   "BasePath": "_content/taskslistDvpartners-backend",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "taskslistDvpartners-backend\\wwwroot",
       "Source": "taskslistDvpartners-backend",
-      "ContentRoot": "C:\\Users\\USUARIO\\Documents\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\wwwroot\\",
       "BasePath": "_content/taskslistDvpartners-backend",
       "Pattern": "**"
     }

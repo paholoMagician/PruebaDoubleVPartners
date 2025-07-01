@@ -27,8 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\tasks\taskBody\" />
-    <Folder Include="wwwroot\storage\filetasks\" />
+    <Folder Include="wwwroot\storage\" />
   </ItemGroup>
 
 </Project>

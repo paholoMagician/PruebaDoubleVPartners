@@ -23,6 +23,7 @@ builder.AddSerilogConfiguration();
 builder.Services.AddSingleton<IPasswordHasher, PasswordHasher>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<ITaskHeaderService, TaskHeaderService>();
+builder.Services.AddScoped<ITasksBodyService, TasksBodyService>();
 
 // Configuración de serialización JSON
 builder.Services.AddControllers()
@@ -115,7 +116,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseCors(builder => builder
-    .WithOrigins("http://localhost:4200")
+    .WithOrigins("http://localhost:5173")
     .AllowAnyHeader()
     .AllowAnyMethod()
     .AllowCredentials());

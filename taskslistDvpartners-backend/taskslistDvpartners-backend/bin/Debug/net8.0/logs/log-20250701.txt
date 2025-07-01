@@ -1,0 +1,1 @@
+2025-07-01 01:30:46.464 -05:00 [INF] (taskslistDvpartners_backend.Controllers.login.LoginController) Usuario bnova@mail.com ha iniciado sesión exitosamente.
