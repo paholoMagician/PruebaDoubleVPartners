@@ -22,23 +22,31 @@ namespace taskslistDvpartners_backend.Controllers.Users
             _userService = userService;
         }
 
-        [HttpGet("GetUsers/{estado}")]
-        public async Task<IActionResult> GetUsers([FromRoute] int estado)
+        [HttpGet("GetUsers")] // Cambiamos a solo "GetUsers" ya que los parámetros ahora serán de consulta
+        public async Task<IActionResult> GetUsers(
+                  [FromQuery] int? estado, // Hacemos el estado opcional también
+                  [FromQuery] int? userCrea) // Nuevo parámetro opcional para userCrea
         {
             try
             {
-                var response = await _userService.GetAllUsersAsync(estado);
-                if (!response.Data.Any())
+                // Si ambos son nulos, podrías devolver todos los usuarios o un error, según la lógica de negocio.
+                // Aquí, si ambos son nulos, podría devolver un BadRequest o un set de datos por defecto.
+                // Por ahora, asumimos que al menos uno se enviará o se devolverán todos si ambos son nulos (si tu servicio lo permite).
+                // Modificaremos GetAllUsersAsync para manejar nulos.
+
+                var response = await _userService.GetAllUsersAsync(estado, userCrea); // Pasamos ambos parámetros
+
+                if (response == null || !response.Data.Any()) // También verifica si response es null
                 {
-                    _logger.LogWarning("No se encontraron usuarios con estado {Estado}.", estado);
-                    return NotFound($"No se encontraron usuarios con el estado '{estado}'.");
+                    _logger.LogWarning("No se encontraron usuarios con estado {Estado} y/o UserCrea {UserCrea}.", estado, userCrea);
+                    return NotFound($"No se encontraron usuarios con el estado '{estado}' y/o UserCrea '{userCrea}'.");
                 }
-                _logger.LogInformation("Se recuperaron {Count} usuarios con estado {Estado}.", response.Data.Count, estado);
+                _logger.LogInformation("Se recuperaron {Count} usuarios con estado {Estado} y UserCrea {UserCrea}.", response.Data.Count, estado, userCrea);
                 return Ok(response);
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error al intentar obtener usuarios con estado {Estado}.", estado);
+                _logger.LogError(ex, "Error al intentar obtener usuarios con estado {Estado} y UserCrea {UserCrea}.", estado, userCrea);
                 return StatusCode(500, "Ocurrió un error interno en el servidor al recuperar los usuarios.");
             }
         }

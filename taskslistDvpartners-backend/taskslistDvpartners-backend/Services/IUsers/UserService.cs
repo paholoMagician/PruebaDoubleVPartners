@@ -15,17 +15,31 @@ namespace taskslistDvpartners_backend.Services.IUsers
             _passwordHasher = passwordHasher;
         }
 
-        public async Task<PaginatedResponseDto<taskslistDvpartners_backend.Models.Users>> GetAllUsersAsync(int estado)
+        public async Task<PaginatedResponseDto<taskslistDvpartners_backend.Models.Users>> GetAllUsersAsync(int? estado, int? userCrea)
         {
-            var users = await _context.Users
-                                      .Where(x => x.Estado == estado)
-                                      .ToListAsync();
+            var query = _context.Users.AsQueryable(); // Inicia una query IQueryable
+
+            if (estado.HasValue)
+            {
+                query = query.Where(u => u.Estado == estado.Value);
+            }
+
+            if (userCrea.HasValue)
+            {
+                query = query.Where(u => u.Usercrea == userCrea.Value);
+            }
+            // Si ambos son nulos, la query traerá todos los usuarios.
+            // Si uno es nulo y el otro tiene valor, filtrará por el que tiene valor.
+
+            var users = await query.ToListAsync();
+
             return new PaginatedResponseDto<taskslistDvpartners_backend.Models.Users>
             {
                 Data = users,
-                Pagination = 25
+                Pagination = users.Count > 0 ? users.Count : 0 // Puedes ajustar la paginación según tu lógica
             };
         }
+
 
         public async Task<taskslistDvpartners_backend.Models.Users> CreateUserAsync(UserCreateUpdateDto userDto, int? userCreaId)
         {

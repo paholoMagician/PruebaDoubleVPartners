@@ -1,5 +1,9 @@
 // src/componentlogin/Login.jsx
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import InputAdornment from '@mui/material/InputAdornment';
+import IconButton from '@mui/material/IconButton';
+import Visibility from '@mui/icons-material/Visibility';
+import VisibilityOff from '@mui/icons-material/VisibilityOff';
 import {
     Avatar,
     Button,
@@ -16,80 +20,72 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import { useNavigate } from 'react-router-dom';
 import TaskListLogo from '../../assets/task_list_logo.png';
 // Importa la función de login del servicio
-import { loginUser } from './services/login.services';
+import { loginUser, hasValidToken } from './services/login.services';
+import './Login.css';
 
 export const Login = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState(null);
     const [loading, setLoading] = useState(false);
+    const [showPassword, setShowPassword] = useState(false);
     const navigate = useNavigate();
+
+    // Validar al inicio del ciclo de vida del componente Login
+    useEffect(() => {
+        // Redirige al dashboard si ya hay token
+        if (hasValidToken()) navigate('/dashboard', { replace: true });
+    }, [navigate]);
+
 
     const handleSubmit = async (event) => {
         event.preventDefault();
-        setError(null); // Limpiamos cualquier error previo
-        setLoading(true); // Iniciamos el estado de carga
+        setError(null);
+        setLoading(true);
 
         if (!email || !password) {
             setError("Por favor, ingrese su correo electrónico y contraseña.");
-            setLoading(false); // Detenemos la carga si hay un error de validación local
+            setLoading(false);
             return;
         }
-
         try {
-            // Llama a la función del servicio para realizar el login
             const token = await loginUser(email, password);
-
             if (token) {
                 sessionStorage.setItem('jwt_token', token);
                 console.log('Token JWT almacenado:', token);
-                navigate('/'); // Redirige al dashboard
+                navigate('/dashboard');
             } else {
                 setError("No se recibió un token de autenticación.");
             }
-
         } catch (err) {
-            // El servicio ya loguea el error en consola, aquí solo lo mostramos al usuario
             setError(err.message || "Error al intentar iniciar sesión. Intente de nuevo.");
         } finally {
-            setLoading(false); // Siempre detenemos la carga al finalizar, exitosa o con error
+            setLoading(false);
         }
     };
+
+
 
     return (
         <>
             <CssBaseline />
             <Container component="main" maxWidth="xs">
                 <Box
+                    // APLICAMOS LA CLASE CSS AQUÍ
+                    className="login-container-box"
                     sx={{
+                        // Mantenemos estas propiedades sx aquí porque son de layout y dependen del componente MUI
                         marginTop: 8,
                         display: 'flex',
                         flexDirection: 'column',
                         alignItems: 'center',
                     }}
                 >
-                    {/* <Typography component="h1" variant="h5">
+                    <img src={TaskListLogo} alt='Logo de TaskList' style={{ width: '350px', height: 'auto', marginBottom: '20px' }} />
+                    <Typography component="h1" variant="h5">
                         Iniciar Sesión
-                    </Typography> */}
-                    <Box
-                        sx={{
-                            marginTop: 8,
-                            display: 'flex',
-                            flexDirection: 'column',
-                            alignItems: 'center',
-                        }}
-                    >
-                        {/* CAMBIO AQUÍ: Usa la variable importada en el src */}
-                        <img src={TaskListLogo} alt='Logo de TaskList' style={{ width: '450px', height: 'auto', marginBottom: '20px' }} />
-                        {/* O con Avatar si lo prefieres: */}
-                        {/* <Avatar sx={{ m: 1, width: 100, height: 100 }}>
-                        <img src={TaskListLogo} alt='Logo de TaskList' style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-                    </Avatar> */}
-                        <Typography component="h1" variant="h5">
-                            Iniciar Sesión
-                        </Typography>
-                        {/* ... el resto de tu formulario ... */}
-                    </Box>
+                    </Typography>
+
                     <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
                         <TextField
                             margin="normal"
@@ -102,21 +98,35 @@ export const Login = () => {
                             autoFocus
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
-                            disabled={loading} // Deshabilita los campos durante la carga
+                            disabled={loading}
                         />
                         <TextField
-                            margin="normal"
-                            required
-                            fullWidth
-                            name="password"
                             label="Contraseña"
-                            type="password"
-                            id="password"
-                            autoComplete="current-password"
+                            type={showPassword ? 'text' : 'password'}
                             value={password}
                             onChange={(e) => setPassword(e.target.value)}
-                            disabled={loading} // Deshabilita los campos durante la carga
+                            fullWidth
+                            required
+                            disabled={loading}
+                            margin="normal"
+                            slotProps={{
+                                input: {
+                                    endAdornment: (
+                                        <InputAdornment position="end">
+                                            <IconButton
+                                                onClick={() => setShowPassword(!showPassword)}
+                                                edge="end"
+                                                aria-label="toggle password visibility"
+                                            >
+                                                {showPassword ? <VisibilityOff /> : <Visibility />}
+                                            </IconButton>
+                                        </InputAdornment>
+                                    ),
+                                },
+                            }}
                         />
+
+
                         {error && (
                             <Alert severity="error" sx={{ mt: 2, width: '100%' }}>
                                 {error}
@@ -127,9 +137,9 @@ export const Login = () => {
                             fullWidth
                             variant="contained"
                             sx={{ mt: 3, mb: 2 }}
-                            disabled={loading} // Deshabilita el botón durante la carga
+                            disabled={loading}
                         >
-                            {loading ? 'Iniciando...' : 'Iniciar Sesión'} {/* Cambia texto del botón */}
+                            {loading ? 'Iniciando...' : 'Iniciar Sesión'}
                         </Button>
                         <Grid container>
                             <Grid item xs>
@@ -148,7 +158,7 @@ export const Login = () => {
                 <Typography variant="body2" color="text.secondary" align="center" sx={{ mt: 8, mb: 4 }}>
                     {'Copyright © '}
                     <Link color="inherit" href="https://mui.com/">
-                        Tu Empresa
+                        TaskList Manager
                     </Link>{' '}
                     {new Date().getFullYear()}
                     {'.'}

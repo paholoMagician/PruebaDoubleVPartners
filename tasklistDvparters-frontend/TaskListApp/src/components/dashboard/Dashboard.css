@@ -1,0 +1,15 @@
+
+
+.apps-view {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.app-containers {
+    width: 100%;
+    background-color: whitesmoke;  
+    margin-left: 15px;
+    border-radius: 10px
+}

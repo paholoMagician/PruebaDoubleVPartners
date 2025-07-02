@@ -1,4 +1,3 @@
-
 const API_BASE_URL = 'https://localhost:7275';
 
 export const loginUser = async (email, password) => {
@@ -8,7 +7,12 @@ export const loginUser = async (email, password) => {
             headers: {
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify({ email, password }),
+            body: JSON.stringify(
+                {
+                    email,
+                    password
+                }
+            ),
         });
 
         if (!response.ok) {
@@ -20,10 +24,29 @@ export const loginUser = async (email, password) => {
         const data = await response.json();
         console.log('ESTE ES EL TOKEN: ');
         console.table(data.token);
-        return data.token; // Devuelve solo el token
+        return data.token;
     } catch (error) {
         console.error('Error en el servicio de login:', error);
-        throw error; // Relanza el error para que el componente que llama lo pueda manejar
+        throw error;
+    }
+};
+
+export const decodeJwtToken = () => {
+    const token = sessionStorage.getItem('jwt_token');
+    if (!token) {
+        return null;
+    }
+    try {
+        const base64Url = token.split('.')[1];
+        const base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+        const jsonPayload = decodeURIComponent(atob(base64).split('').map(function (c) {
+            return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+        }).join(''));
+
+        return JSON.parse(jsonPayload);
+    } catch (error) {
+        console.error("Error decodificando el token JWT:", error);
+        return null;
     }
 };
 
@@ -31,9 +54,7 @@ export const hasValidToken = () => {
     const token = sessionStorage.getItem('jwt_token');
     return !!token;
 };
-// Puedes añadir más funciones relacionadas con la autenticación aquí, por ejemplo:
+
 export const logoutUser = () => {
     sessionStorage.removeItem('jwt_token');
 };
-
-// export const registerUser = async (userData) => { ... };
