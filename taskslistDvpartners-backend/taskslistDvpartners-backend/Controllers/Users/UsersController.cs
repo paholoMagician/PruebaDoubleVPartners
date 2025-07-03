@@ -52,7 +52,7 @@ namespace taskslistDvpartners_backend.Controllers.Users
         }
 
         [HttpPost("CreateUser")]
-        [Authorize(Roles = "ADM")]
+        [Authorize(Roles = "ADM,GER")]
         public async Task<IActionResult> CreateUser([FromBody] UserCreateUpdateDto userDto)
         {
             try
@@ -94,7 +94,7 @@ namespace taskslistDvpartners_backend.Controllers.Users
         }
 
         [HttpPut("UpdateUser/{id}")]
-        [Authorize(Roles = "ADM")]
+        [Authorize(Roles = "ADM,GER")]
         public async Task<IActionResult> UpdateUser([FromRoute] int id, [FromBody] UserCreateUpdateDto userDto)
         {
             try
@@ -129,7 +129,7 @@ namespace taskslistDvpartners_backend.Controllers.Users
         }
 
         [HttpDelete("DeleteUser/{id}")]
-        [Authorize(Roles = "ADM")]
+        [Authorize(Roles = "ADM,GER")]
         public async Task<IActionResult> DeleteUser([FromRoute] int id)
         {
             try

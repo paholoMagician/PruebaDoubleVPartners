@@ -11,6 +11,7 @@ import { Tareas } from './dashboard-components/Tareas/Tareas';
 import { hasValidToken, logoutUser, decodeJwtToken } from '../login/services/login.services';
 
 import './Dashboard.css';
+import { MyWorks } from './dashboard-components/My-Works/MyWorks';
 
 export const Dashboard = () => {
     const navigate = useNavigate();
@@ -41,6 +42,8 @@ export const Dashboard = () => {
                 return <MyTeam userData={userData} />; // Pasa userData a MyTeam
             case 'tasks':
                 return <Tareas userData={userData} />; // Pasa userData a Tareas
+            case 'mytasks':
+                return <MyWorks userData={userData} />; // Pasa userData a Mis Tareas
             case 'home':
             default:
                 // Usamos userData.unique_name para el saludo, o userData.email si unique_name no existe

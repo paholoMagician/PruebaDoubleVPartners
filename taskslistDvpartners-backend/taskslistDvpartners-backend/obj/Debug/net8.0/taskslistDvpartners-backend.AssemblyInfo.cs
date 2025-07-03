@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("taskslistDvpartners-backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a795ffe6584ac1fcd66d508d3485b7de4ebe91fd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d553160bcdec12f2891657426a2e933ce141d790")]
 [assembly: System.Reflection.AssemblyProductAttribute("taskslistDvpartners-backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("taskslistDvpartners-backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,6 +1,6 @@
 // src/services/user.services.js
 
-const API_BASE_URL = 'https://localhost:7275'; // Asegúrate de que esta URL sea correcta
+const API_BASE_URL = 'https://localhost:7275';
 
 // Función para obtener un token JWT del sessionStorage
 const getAuthToken = () => {

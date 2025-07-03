@@ -71,8 +71,8 @@ namespace taskslistDvpartners_backend.Controllers.tasks.taskshead
 
         // --- POST: Crear un nuevo TaskHeader ---
         [HttpPost("Create")]
-        // Permitir a ADM y USR crear tareas
-        [Authorize(Roles = "ADM,USR")] 
+        // Permitir a ADM,GER crear tareas
+        [Authorize(Roles = "ADM,GER")] 
         public async Task<IActionResult> CreateTaskHeader([FromBody] TaskHeaderCreateUpdateDto taskHeaderDto)
         {
             try
@@ -117,8 +117,8 @@ namespace taskslistDvpartners_backend.Controllers.tasks.taskshead
 
         // --- PUT: Actualizar un TaskHeader existente ---
         [HttpPut("Update/{id}")]
-        // Permitir a ADM y USR actualizar tareas
-        [Authorize(Roles = "ADM,USR")] 
+        // Permitir a ADM,GER,NOR actualizar tareas
+        [Authorize(Roles = "ADM,GER,NOR")] 
         public async Task<IActionResult> UpdateTaskHeader([FromRoute] int id, [FromBody] TaskHeaderCreateUpdateDto taskHeaderDto)
         {
             try
@@ -158,7 +158,7 @@ namespace taskslistDvpartners_backend.Controllers.tasks.taskshead
         // --- DELETE: Eliminar lógicamente un TaskHeader ---
         [HttpDelete("Delete/{id}")]
         // Solo los ADM pueden eliminar lógicamente tareas
-        [Authorize(Roles = "ADM")] 
+        [Authorize(Roles = "ADM,GER")] 
         public async Task<IActionResult> SoftDeleteTaskHeader([FromRoute] int id)
         {
             try

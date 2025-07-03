@@ -1,0 +1,154 @@
+/* MyWorks.css */
+/* Estilos para la zona de dropeo */
+.kanban-drop-zone {
+    height: 50px; /* Altura de la zona, ajustada un poco */
+    border: 3px dashed gray; /* Borde punteado gris como pediste */
+    border-radius: 8px;
+    margin-bottom: 15px; /* Espacio entre la zona de dropeo y las tarjetas */
+    margin-top: 10px; /* Un poco de espacio después del título de la columna */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #888; /* Color de texto más suave */
+    font-size: 0.9em;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+    background-color: #f8f8f8; /* Un fondo muy sutil para que sea visible */
+    flex-shrink: 0; /* Evita que se encoja si hay muchas tareas */
+}
+
+/* Estilo cuando una tarjeta está sobre la zona de dropeo */
+.kanban-drop-zone-active {
+    border-color: #007bff; /* Un azul más vibrante cuando está activo */
+    background-color: #e6f2ff; /* Fondo azul claro */
+    color: #0056b3;
+    font-weight: 600;
+    transform: scale(1.01);
+}
+
+/* Contenedor principal del tablero */
+.my-works-container {
+    padding: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Título principal del tablero Kanban */
+.my-works-title {
+    text-align: center;
+    color: #2c3e50; /* Un gris oscuro profesional */
+    /* margin-bottom: 45px; */
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* Contenedor de las columnas Kanban */
+.kanban-board {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+/* Estilos para cada columna Kanban */
+.kanban-column {
+    flex: 1;
+    min-width: 280px;
+    max-width: 380px;
+    background-color: #ebf0f4;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+    transition: transform 0.2s ease-in-out;
+}
+
+
+.kanban-column:hover {
+    transform: translateY(-5px); /* Pequeño efecto al pasar el ratón */
+}
+
+/* Título de la columna */
+.kanban-column-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #34495e; /* Un azul grisáceo oscuro */
+    padding-bottom: 10px;
+    border-bottom: 2px solid #c0d1e2; /* Borde inferior más suave */
+    font-size: 1.6em;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+}
+
+/* Estilos para las tarjetas de tarea */
+.kanban-card {
+    background-color: #ffffff;
+    border-radius: 8px; /* Bordes de tarjeta más suaves */
+    padding: 12px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.08); /* Sombra de tarjeta más sutil */
+    word-wrap: break-word;
+    transition: all 0.2s ease-in-out; /* Transición suave para todos los cambios */
+}
+
+.kanban-card:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12); /* Sombra ligeramente más fuerte al pasar el ratón */
+    transform: translateY(-2px); /* Ligerísimo levantamiento al pasar el ratón */
+}
+
+/* Colores de borde para las tarjetas según su estado */
+.kanban-card.status-1 { /* Pendiente */
+    border-left: 5px solid #ffc107; /* Amarillo */
+}
+.kanban-card.status-2 { /* En Proceso */
+    border-left: 5px solid #007bff; /* Azul */
+}
+.kanban-card.status-3 { /* Completada */
+    border-left: 5px solid #28a745; /* Verde */
+}
+
+/* Título de la tarjeta */
+.kanban-card h4 {
+    color: #333;
+    margin-bottom: 8px;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+/* Párrafos de la tarjeta */
+.kanban-card p {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.kanban-card p strong {
+    color: #444;
+}
+
+/* Estilo para el mensaje de "No hay tareas" */
+.no-tasks-message {
+    text-align: center;
+    color: #666;
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+
+/* Estilos para mensajes de carga y error */
+.loading-message, .error-message {
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.error-message {
+    color: #dc3545; /* Rojo de error */
+}

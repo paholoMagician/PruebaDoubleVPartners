@@ -1,0 +1,331 @@
+2025-07-03 00:00:15.472 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 5 actualizado exitosamente.
+2025-07-03 00:00:18.710 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 5 actualizado exitosamente.
+2025-07-03 00:00:20.531 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 6 actualizado exitosamente.
+2025-07-03 00:00:23.528 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 6 actualizado exitosamente.
+2025-07-03 00:00:27.111 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 4 actualizado exitosamente.
+2025-07-03 00:00:30.449 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 5 actualizado exitosamente.
+2025-07-03 00:00:37.290 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 4 actualizado exitosamente.
+2025-07-03 00:00:43.541 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 6 actualizado exitosamente.
+2025-07-03 00:00:50.026 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 4 actualizado exitosamente.
+2025-07-03 00:00:52.549 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 4 actualizado exitosamente.
+2025-07-03 00:00:55.455 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 6 actualizado exitosamente.
+2025-07-03 00:01:09.443 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 4 actualizado exitosamente.
+2025-07-03 00:01:12.000 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 4 actualizado exitosamente.
+2025-07-03 00:01:39.867 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 00:01:39.875 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 00:01:39.877 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea null.
+2025-07-03 00:01:39.885 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea null.
+2025-07-03 00:01:40.371 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 00:01:40.379 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 00:01:52.555 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 4 actualizado exitosamente.
+2025-07-03 00:02:12.273 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 5 actualizado exitosamente.
+2025-07-03 00:02:22.272 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 6 actualizado exitosamente.
+2025-07-03 00:02:24.786 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 4 actualizado exitosamente.
+2025-07-03 00:02:26.863 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 6 actualizado exitosamente.
+2025-07-03 00:02:33.611 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 5 actualizado exitosamente.
+2025-07-03 00:02:37.706 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 4 actualizado exitosamente.
+2025-07-03 00:02:45.631 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 5 actualizado exitosamente.
+2025-07-03 00:06:46.179 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea null.
+2025-07-03 00:06:46.179 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 00:06:46.185 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea null.
+2025-07-03 00:06:46.188 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 00:06:46.872 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 00:06:46.883 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 00:11:21.099 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 00:11:21.104 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 00:11:37.498 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 4 actualizado exitosamente.
+2025-07-03 00:11:51.083 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 5 actualizado exitosamente.
+2025-07-03 00:35:50.526 -05:00 [INF] (taskslistDvpartners_backend.Controllers.login.LoginController) Usuario cvelastegui@mail.com ha iniciado sesión exitosamente.
+2025-07-03 00:35:52.017 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 00:35:52.024 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 00:37:14.166 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 00:37:14.172 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 00:47:56.331 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 6 actualizado exitosamente.
+2025-07-03 00:48:00.106 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 4 actualizado exitosamente.
+2025-07-03 00:50:39.836 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 6 actualizado exitosamente.
+2025-07-03 00:50:42.814 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 4 actualizado exitosamente.
+2025-07-03 00:50:47.180 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 4 actualizado exitosamente.
+2025-07-03 00:50:51.820 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 00:50:51.827 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 00:50:51.831 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea null.
+2025-07-03 00:50:51.836 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea null.
+2025-07-03 00:50:52.656 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 00:50:52.672 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 00:50:55.439 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 4 actualizado exitosamente.
+2025-07-03 00:50:58.846 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 5 actualizado exitosamente.
+2025-07-03 00:51:44.849 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 5 actualizado exitosamente.
+2025-07-03 00:51:48.661 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 5 actualizado exitosamente.
+2025-07-03 00:52:22.955 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 4 actualizado exitosamente.
+2025-07-03 00:52:26.445 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 6 actualizado exitosamente.
+2025-07-03 00:52:29.624 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 6 actualizado exitosamente.
+2025-07-03 00:52:39.125 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 5 actualizado exitosamente.
+2025-07-03 00:53:51.770 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 5 actualizado exitosamente.
+2025-07-03 00:53:54.526 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 4 actualizado exitosamente.
+2025-07-03 00:57:50.361 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 4 actualizado exitosamente.
+2025-07-03 00:57:54.101 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 6 actualizado exitosamente.
+2025-07-03 00:57:56.533 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 6 actualizado exitosamente.
+2025-07-03 01:23:12.717 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 6 actualizado exitosamente.
+2025-07-03 01:23:17.919 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 01:23:17.924 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:23:17.925 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 01:23:17.929 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:23:24.920 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 4 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:23:24.926 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 4 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:23:28.421 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 01:23:28.421 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:23:28.426 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 01:23:28.428 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:23:28.994 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 01:23:29.006 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 01:25:16.476 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 4 actualizado exitosamente.
+2025-07-03 01:25:20.396 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 5 actualizado exitosamente.
+2025-07-03 01:25:32.324 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 01:25:32.325 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:25:32.330 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 01:25:32.331 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:25:33.426 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 01:25:33.433 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 01:25:35.002 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:25:35.005 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 01:25:35.009 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:25:35.012 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 01:25:35.473 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 4 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:25:35.478 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 4 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:25:38.812 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 4 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:25:38.822 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 4 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:25:39.309 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:25:39.309 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 01:25:39.317 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:25:39.318 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 01:25:39.866 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 01:25:39.875 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 01:25:40.533 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:25:40.533 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 01:25:40.541 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:25:40.542 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 01:25:40.883 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 4 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:25:40.891 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 4 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:25:50.703 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 4 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:25:50.709 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 4 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:25:53.696 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 4 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:25:53.703 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 4 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:25:57.940 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 4 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:25:57.947 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 4 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:25:58.483 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 01:25:58.490 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 01:25:58.491 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:25:58.498 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:25:59.026 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 01:25:59.035 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 01:26:09.301 -05:00 [INF] (taskslistDvpartners_backend.Controllers.login.LoginController) Usuario cvelastegui@mail.com ha iniciado sesión exitosamente.
+2025-07-03 01:26:12.969 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 4 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:26:12.975 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 4 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:26:48.260 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Usuario 'mpajan@mail.com' creado exitosamente con ID: 23.
+2025-07-03 01:26:48.279 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:26:56.241 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 6 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:26:56.242 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 01:26:56.246 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 3 TaskHeaders con estado 1.
+2025-07-03 01:26:56.246 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 6 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:27:20.129 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader 'Cambio en el estilo del botn' creado exitosamente con ID: 7.
+2025-07-03 01:27:20.268 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:27:22.237 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:27:22.251 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:27:38.460 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 5 actualizado exitosamente.
+2025-07-03 01:27:41.456 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 6 actualizado exitosamente.
+2025-07-03 01:30:53.474 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:30:53.481 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:30:56.152 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 4 actualizado exitosamente.
+2025-07-03 01:31:01.142 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 6 actualizado exitosamente.
+2025-07-03 01:31:19.365 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 5 actualizado exitosamente.
+2025-07-03 01:31:22.042 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:31:22.048 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:31:22.058 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 6 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:31:22.064 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 6 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:31:23.267 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:31:23.273 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:31:23.753 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 6 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:31:23.754 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:31:23.759 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 6 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:31:23.760 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:31:24.156 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:31:24.162 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:31:32.195 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:31:32.210 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:31:32.762 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:31:32.762 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 6 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:31:32.778 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:31:32.779 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 6 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:31:33.312 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:31:33.319 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:31:33.867 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 6 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:31:33.868 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:31:33.875 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:31:33.875 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 6 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:31:34.344 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:31:34.357 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:31:36.249 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:31:36.254 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:31:37.200 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:31:37.200 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 6 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:31:37.207 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:31:37.207 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 6 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:31:37.652 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:31:37.666 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:31:38.125 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 6 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:31:38.133 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 6 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:31:38.133 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:31:38.141 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:31:38.426 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:31:38.431 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:31:40.035 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:31:40.041 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:31:40.412 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:31:40.412 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 6 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:31:40.417 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:31:40.420 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 6 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:31:40.701 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:31:40.706 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:33:47.481 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:33:47.487 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:33:48.207 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 6 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:33:48.209 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:33:48.214 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 6 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:33:48.215 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:33:49.245 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:33:49.251 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:33:49.690 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 6 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:33:49.690 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:33:49.695 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 6 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:33:49.704 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:33:50.134 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:33:50.141 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:33:51.669 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:33:51.669 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 6 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:33:51.675 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:33:51.676 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 6 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:33:51.960 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:33:51.967 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:33:54.060 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:33:54.061 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 6 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:33:54.065 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:33:54.067 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 6 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:33:54.891 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:33:54.903 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:35:14.973 -05:00 [WRN] (taskslistDvpartners_backend.Controllers.login.LoginController) Intento de login fallido para el email: arecalde@mail.com. Contraseña incorrecta.
+2025-07-03 01:35:57.398 -05:00 [INF] (taskslistDvpartners_backend.Controllers.login.LoginController) Usuario cvelastegui@mail.com ha iniciado sesión exitosamente.
+2025-07-03 01:36:02.481 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:36:02.488 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 5 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:36:37.214 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Usuario 'bnova@mail.com' creado exitosamente con ID: 24.
+2025-07-03 01:36:37.239 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 6 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:36:56.772 -05:00 [WRN] (taskslistDvpartners_backend.Controllers.login.LoginController) Intento de login fallido para el email: bnova@mail.com. Contraseña incorrecta.
+2025-07-03 01:37:04.555 -05:00 [WRN] (taskslistDvpartners_backend.Controllers.login.LoginController) Intento de login fallido para el email: bnova@mail.com. Contraseña incorrecta.
+2025-07-03 01:37:09.348 -05:00 [INF] (taskslistDvpartners_backend.Controllers.login.LoginController) Usuario cvelastegui@mail.com ha iniciado sesión exitosamente.
+2025-07-03 01:37:11.315 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 6 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:37:11.321 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 6 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:37:13.796 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 7 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:37:13.816 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 7 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:37:13.819 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:37:13.826 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:37:40.667 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 6 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:37:40.674 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 6 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:48:24.690 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 6 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:48:24.696 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 6 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:50:02.550 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Usuario 'mgranoble@mail.com' creado exitosamente con ID: 25.
+2025-07-03 01:50:02.578 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 7 usuarios con estado 1 y UserCrea 17.
+2025-07-03 01:50:46.339 -05:00 [INF] (taskslistDvpartners_backend.Controllers.login.LoginController) Usuario mgranoble@mail.com ha iniciado sesión exitosamente.
+2025-07-03 01:51:00.345 -05:00 [WRN] (taskslistDvpartners_backend.Controllers.Users.UsersController) No se encontraron usuarios con estado 1 y/o UserCrea 25.
+2025-07-03 01:51:00.352 -05:00 [WRN] (taskslistDvpartners_backend.Controllers.Users.UsersController) No se encontraron usuarios con estado 1 y/o UserCrea 25.
+2025-07-03 01:51:15.776 -05:00 [WRN] (taskslistDvpartners_backend.Controllers.Users.UsersController) No se encontraron usuarios con estado 1 y/o UserCrea 25.
+2025-07-03 01:51:15.782 -05:00 [WRN] (taskslistDvpartners_backend.Controllers.Users.UsersController) No se encontraron usuarios con estado 1 y/o UserCrea 25.
+2025-07-03 01:51:22.285 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:51:22.291 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 8 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:51:22.292 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:51:22.298 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 8 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:51:52.076 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:51:52.083 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:52:04.397 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:52:04.405 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:52:04.406 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 8 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:52:04.416 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 8 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:52:06.402 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:52:06.429 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:52:13.210 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:52:13.210 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 8 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:52:13.216 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 8 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:52:13.216 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:52:14.219 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:52:14.230 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:52:14.935 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 8 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:52:14.935 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:52:14.945 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:52:14.961 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 8 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:52:15.389 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:52:15.398 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:52:15.932 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 8 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:52:15.932 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 01:52:15.939 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 8 usuarios con estado 1 y UserCrea null.
+2025-07-03 01:52:15.940 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 02:40:06.469 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 02:40:06.476 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 02:44:46.329 -05:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: https://localhost:7275
+2025-07-03 02:44:46.373 -05:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: http://localhost:5034
+2025-07-03 02:44:46.378 -05:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2025-07-03 02:44:46.389 -05:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: Development
+2025-07-03 02:44:46.391 -05:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: C:\Users\pahol\Desktop\PruebaDoubleVPartners\taskslistDvpartners-backend\taskslistDvpartners-backend
+2025-07-03 02:44:59.422 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 02:44:59.634 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 02:45:02.767 -05:00 [INF] (taskslistDvpartners_backend.Controllers.login.LoginController) Usuario mgranoble@mail.com ha iniciado sesión exitosamente.
+2025-07-03 02:45:08.196 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 02:45:08.212 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 02:45:13.711 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 4 actualizado exitosamente.
+2025-07-03 02:45:19.097 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) TaskHeader con ID 4 actualizado exitosamente.
+2025-07-03 02:45:22.655 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 02:45:22.662 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 02:45:22.683 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 8 usuarios con estado 1 y UserCrea null.
+2025-07-03 02:45:22.696 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 8 usuarios con estado 1 y UserCrea null.
+2025-07-03 02:45:58.204 -05:00 [WRN] (taskslistDvpartners_backend.Controllers.Users.UsersController) No se encontraron usuarios con estado 1 y/o UserCrea 25.
+2025-07-03 02:45:58.213 -05:00 [WRN] (taskslistDvpartners_backend.Controllers.Users.UsersController) No se encontraron usuarios con estado 1 y/o UserCrea 25.
+2025-07-03 02:46:10.051 -05:00 [WRN] (taskslistDvpartners_backend.Controllers.Users.UsersController) No se encontraron usuarios con estado 1 y/o UserCrea 25.
+2025-07-03 02:46:10.059 -05:00 [WRN] (taskslistDvpartners_backend.Controllers.Users.UsersController) No se encontraron usuarios con estado 1 y/o UserCrea 25.
+2025-07-03 02:47:46.153 -05:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: https://localhost:7275
+2025-07-03 02:47:46.199 -05:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: http://localhost:5034
+2025-07-03 02:47:46.204 -05:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2025-07-03 02:47:46.206 -05:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: Development
+2025-07-03 02:47:46.208 -05:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: C:\Users\pahol\Desktop\PruebaDoubleVPartners\taskslistDvpartners-backend\taskslistDvpartners-backend
+2025-07-03 02:48:37.159 -05:00 [WRN] (taskslistDvpartners_backend.Controllers.Users.UsersController) No se encontraron usuarios con estado 1 y/o UserCrea 25.
+2025-07-03 02:48:37.206 -05:00 [WRN] (taskslistDvpartners_backend.Controllers.Users.UsersController) No se encontraron usuarios con estado 1 y/o UserCrea 25.
+2025-07-03 02:49:06.176 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 8 usuarios con estado 1 y UserCrea null.
+2025-07-03 02:49:06.176 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 02:49:06.277 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 8 usuarios con estado 1 y UserCrea null.
+2025-07-03 02:49:06.278 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 02:58:19.286 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 02:58:19.295 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 02:58:21.252 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 02:58:21.256 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 8 usuarios con estado 1 y UserCrea null.
+2025-07-03 02:58:21.262 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 02:58:21.265 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 8 usuarios con estado 1 y UserCrea null.
+2025-07-03 02:58:25.999 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 02:58:26.007 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 02:58:26.013 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 8 usuarios con estado 1 y UserCrea null.
+2025-07-03 02:58:26.021 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 8 usuarios con estado 1 y UserCrea null.
+2025-07-03 02:58:26.888 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 02:58:26.897 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 02:58:37.962 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 02:58:37.975 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 02:58:37.975 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 8 usuarios con estado 1 y UserCrea null.
+2025-07-03 02:58:37.993 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 8 usuarios con estado 1 y UserCrea null.
+2025-07-03 02:58:44.921 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 02:58:44.921 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 8 usuarios con estado 1 y UserCrea null.
+2025-07-03 02:58:44.928 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 02:58:44.930 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 8 usuarios con estado 1 y UserCrea null.
+2025-07-03 02:58:46.099 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 02:58:46.107 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 02:59:09.210 -05:00 [WRN] (taskslistDvpartners_backend.Controllers.login.LoginController) Intento de login fallido para el email: Camila Velastegui. Usuario no encontrado.
+2025-07-03 02:59:15.806 -05:00 [INF] (taskslistDvpartners_backend.Controllers.login.LoginController) Usuario cvelastegui@mail.com ha iniciado sesión exitosamente.
+2025-07-03 02:59:19.879 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 7 usuarios con estado 1 y UserCrea 17.
+2025-07-03 02:59:19.888 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 7 usuarios con estado 1 y UserCrea 17.
+2025-07-03 03:00:02.613 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Usuario 'cbeltran@mail.com' creado exitosamente con ID: 26.
+2025-07-03 03:00:02.683 -05:00 [INF] (taskslistDvpartners_backend.Controllers.Users.UsersController) Se recuperaron 8 usuarios con estado 1 y UserCrea 17.
+2025-07-03 03:00:18.259 -05:00 [INF] (taskslistDvpartners_backend.Controllers.login.LoginController) Usuario cbeltran@mail.com ha iniciado sesión exitosamente.
+2025-07-03 03:00:24.415 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.
+2025-07-03 03:00:24.424 -05:00 [INF] (taskslistDvpartners_backend.Controllers.tasks.taskshead.TaskHeaderController) Se recuperaron 4 TaskHeaders con estado 1.

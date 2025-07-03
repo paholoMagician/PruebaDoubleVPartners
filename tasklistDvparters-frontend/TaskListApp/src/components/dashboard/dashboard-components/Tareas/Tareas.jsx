@@ -46,6 +46,7 @@ export const Tareas = ({ userData }) => {
     useEffect(() => {
         fetchTasks();
         fetchUsersForDropdown(); // Obtener usuarios cuando el componente se monta
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [filterEstado]); // Vuelve a obtener tareas cuando filterEstado cambia
 
     const fetchTasks = async () => {
@@ -207,7 +208,7 @@ export const Tareas = ({ userData }) => {
                     <MenuItem value={0}>Inactivas</MenuItem>
                     {/* Añade otros estados si aplica, por ejemplo, para EstadoTarea */}
                 </TextField>
-                {userData?.role === 'ADM' || userData?.role === 'USR' ? ( // ADM y USR pueden crear tareas
+                {userData?.role === 'ADM' || userData?.role === 'GER' ? ( // ADM y USR pueden crear tareas
                     <Button
                         variant="contained"
                         startIcon={<AddIcon />}

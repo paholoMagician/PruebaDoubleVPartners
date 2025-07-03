@@ -70,7 +70,7 @@ namespace taskslistDvpartners_backend.Controllers.tasks.taskBody
 
         // --- POST: Crear un nuevo TasksBody ---
         [HttpPost("Create")]
-        [Authorize(Roles = "ADM,USR")] // Permitir a ADM y USR crear cuerpos de tarea
+        [Authorize(Roles = "ADM,NOR")] // Permitir a ADM y NOR crear cuerpos de tarea
         public async Task<IActionResult> CreateTasksBody([FromBody] TasksBodyCreateUpdateDto tasksBodyDto)
         {
             try
@@ -101,7 +101,7 @@ namespace taskslistDvpartners_backend.Controllers.tasks.taskBody
 
         // --- PUT: Actualizar un TasksBody existente ---
         [HttpPut("Update/{id}")]
-        [Authorize(Roles = "ADM,USR")] // Permitir a ADM y USR actualizar cuerpos de tarea
+        [Authorize(Roles = "ADM,NOR")] // Permitir a ADM y NOR actualizar cuerpos de tarea
         public async Task<IActionResult> UpdateTasksBody([FromRoute] int id, [FromBody] TasksBodyCreateUpdateDto tasksBodyDto)
         {
             try
