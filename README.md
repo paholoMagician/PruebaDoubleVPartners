@@ -1,4 +1,4 @@
-# 📋 Task Assignment App (React + .NET + SQL Server)
+# 📋 Task Assignment App (React + .NET8 + SQL Server)
 
 ## 🛠️ Stack Tecnológico Completo
 
