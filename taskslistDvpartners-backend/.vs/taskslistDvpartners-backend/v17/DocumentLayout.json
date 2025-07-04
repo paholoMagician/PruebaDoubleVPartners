@@ -56,7 +56,7 @@
               "RelativeDocumentMoniker": "taskslistDvpartners-backend\\Program.cs",
               "ToolTip": "C:\\Users\\pahol\\Desktop\\PruebaDoubleVPartners\\taskslistDvpartners-backend\\taskslistDvpartners-backend\\Program.cs",
               "RelativeToolTip": "taskslistDvpartners-backend\\Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-03T23:57:59.437Z",
               "EditorCaption": ""
@@ -71,8 +71,7 @@
               "RelativeToolTip": "taskslistDvpartners-backend\\ModelsDto\\TaskHeaderResponseDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T20:56:32.223Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-03T20:56:32.223Z"
             },
             {
               "$type": "Document",
@@ -84,8 +83,7 @@
               "RelativeToolTip": "taskslistDvpartners-backend\\Services\\ITaskHead\\ITaskHeaderService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAB2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T08:29:45.564Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-03T08:29:45.564Z"
             },
             {
               "$type": "Document",
@@ -97,8 +95,7 @@
               "RelativeToolTip": "taskslistDvpartners-backend\\Controllers\\tasks\\taskshead\\TaskHeaderController.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAAADwAAABiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T08:24:03.267Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-03T08:24:03.267Z"
             },
             {
               "$type": "Document",
@@ -110,8 +107,7 @@
               "RelativeToolTip": "taskslistDvpartners-backend\\Services\\ITaskHead\\TaskHeaderService.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T08:23:45.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-03T08:23:45.834Z"
             },
             {
               "$type": "Document",
@@ -123,8 +119,7 @@
               "RelativeToolTip": "taskslistDvpartners-backend\\Models\\taskslistDvpartnersContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwBQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T08:22:17.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-03T08:22:17.094Z"
             },
             {
               "$type": "Document",
@@ -136,8 +131,7 @@
               "RelativeToolTip": "taskslistDvpartners-backend\\Models\\Users.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T08:27:21.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-03T08:27:21.922Z"
             },
             {
               "$type": "Document",
@@ -149,8 +143,7 @@
               "RelativeToolTip": "taskslistDvpartners-backend\\ModelsDto\\TaskHeaderCreateUpdateDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T08:18:44.743Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-03T08:18:44.743Z"
             }
           ]
         }
