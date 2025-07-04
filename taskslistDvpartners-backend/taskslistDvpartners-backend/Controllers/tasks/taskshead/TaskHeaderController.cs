@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿// File: taskslistDvpartners_backend/Controllers/tasks/taskshead/TaskHeaderController.cs
+
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using taskslistDvpartners_backend.Controllers.Users;
-using taskslistDvpartners_backend.ModelsDto;
+using taskslistDvpartners_backend.ModelsDto; // Importa el nuevo DTO
 using taskslistDvpartners_backend.Services.ITaskHead;
 using taskslistDvpartners_backend.Services.IUsers;
 
@@ -11,13 +13,11 @@ namespace taskslistDvpartners_backend.Controllers.tasks.taskshead
 {
     [Route("api/TaskHeader")]
     [ApiController]
-    // Asegura que solo usuarios autenticados puedan acceder
-    [Authorize] 
+    [Authorize]
     public class TaskHeaderController : ControllerBase
     {
         private readonly ILogger<TaskHeaderController> _logger;
-        // Inyecta el servicio de TaskHeader
-        private readonly ITaskHeaderService _taskHeaderService; 
+        private readonly ITaskHeaderService _taskHeaderService;
 
         public TaskHeaderController(ILogger<TaskHeaderController> logger, ITaskHeaderService taskHeaderService)
         {
@@ -31,22 +31,42 @@ namespace taskslistDvpartners_backend.Controllers.tasks.taskshead
         {
             try
             {
-                var taskHeaders = await _taskHeaderService.GetAllTaskHeadersAsync(estado);
+                // Extraer el ID del usuario conectado desde el token
+                int? iduserconnected = null;
+                var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+                if (userIdClaim != null && int.TryParse(userIdClaim.Value, out int parsedId))
+                    iduserconnected = parsedId;
+
+                // Extraer el rol desde el token
+                var roleClaim = User.FindFirst(ClaimTypes.Role);
+                var role = roleClaim?.Value;
+
+                if (iduserconnected == null || role == null)
+                {
+                    return Unauthorized("No se pudo determinar el usuario o rol desde el token.");
+                }
+
+                var taskHeaders = await _taskHeaderService.GetAllTaskHeadersAsync(estado, iduserconnected.Value, role);
+
                 if (!taskHeaders.Any())
                 {
-                    _logger.LogWarning("No se encontraron TaskHeaders con estado {Estado}.", estado);
-                    return NotFound($"No se encontraron TaskHeaders con el estado '{estado}'.");
+                    _logger.LogWarning("No se encontraron TaskHeaders con estado {Estado} para usuario ID {UserId} y rol {Role}.", estado, iduserconnected, role);
+                    return NotFound("No se encontraron tareas para este usuario.");
                 }
-                _logger.LogInformation("Se recuperaron {Count} TaskHeaders con estado {Estado}.", taskHeaders.Count(), estado);
+
                 return Ok(taskHeaders);
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error al intentar obtener TaskHeaders con estado {Estado}.", estado);
-                return StatusCode(500, "Ocurrió un error interno en el servidor al recuperar las tareas.");
+                _logger.LogError(ex, "Error al obtener TaskHeaders con estado {Estado}.", estado);
+                return StatusCode(500, "Ocurrió un error interno al obtener las tareas.");
             }
         }
 
+
+
+
+        // El resto de tus métodos del controlador quedan igual
         // --- GET: Obtener un TaskHeader por ID ---
         [HttpGet("{id}")]
         public async Task<IActionResult> GetTaskHeaderById([FromRoute] int id)
@@ -71,8 +91,7 @@ namespace taskslistDvpartners_backend.Controllers.tasks.taskshead
 
         // --- POST: Crear un nuevo TaskHeader ---
         [HttpPost("Create")]
-        // Permitir a ADM,GER crear tareas
-        [Authorize(Roles = "ADM,GER")] 
+        [Authorize(Roles = "ADM,GER")]
         public async Task<IActionResult> CreateTaskHeader([FromBody] TaskHeaderCreateUpdateDto taskHeaderDto)
         {
             try
@@ -83,7 +102,6 @@ namespace taskslistDvpartners_backend.Controllers.tasks.taskshead
                     return BadRequest(ModelState);
                 }
 
-                // Obtener el ID del usuario autenticado (Usercrea)
                 int? userCreaId = null;
                 var userCreaClaim = User.FindFirst(ClaimTypes.NameIdentifier);
                 if (userCreaClaim != null && int.TryParse(userCreaClaim.Value, out int parsedId))
@@ -98,15 +116,12 @@ namespace taskslistDvpartners_backend.Controllers.tasks.taskshead
                 var newHeader = await _taskHeaderService.CreateTaskHeaderAsync(taskHeaderDto, userCreaId);
 
                 _logger.LogInformation("TaskHeader '{Titulo}' creado exitosamente con ID: {Id}.", newHeader.Titutlo, newHeader.Id);
-                // Retorna 201 CreatedAtAction y el objeto creado
                 return CreatedAtAction(nameof(GetTaskHeaderById), new { id = newHeader.Id }, newHeader);
             }
-            // Captura la excepción de usuario no existente
-            catch (InvalidOperationException ex) 
+            catch (InvalidOperationException ex)
             {
                 _logger.LogWarning("Error al crear TaskHeader: {Message}", ex.Message);
-                // Retorna 400 Bad Request
-                return BadRequest(ex.Message); 
+                return BadRequest(ex.Message);
             }
             catch (Exception ex)
             {
@@ -117,8 +132,7 @@ namespace taskslistDvpartners_backend.Controllers.tasks.taskshead
 
         // --- PUT: Actualizar un TaskHeader existente ---
         [HttpPut("Update/{id}")]
-        // Permitir a ADM,GER,NOR actualizar tareas
-        [Authorize(Roles = "ADM,GER,NOR")] 
+        [Authorize(Roles = "ADM,GER,NOR")]
         public async Task<IActionResult> UpdateTaskHeader([FromRoute] int id, [FromBody] TaskHeaderCreateUpdateDto taskHeaderDto)
         {
             try
@@ -138,15 +152,12 @@ namespace taskslistDvpartners_backend.Controllers.tasks.taskshead
                 }
 
                 _logger.LogInformation("TaskHeader con ID {Id} actualizado exitosamente.", id);
-                // Retorna 200 OK y el objeto actualizado
-                return Ok(updatedHeader); 
+                return Ok(updatedHeader);
             }
-            // Captura la excepción de usuario no existente
-            catch (InvalidOperationException ex) 
+            catch (InvalidOperationException ex)
             {
                 _logger.LogWarning("Error al actualizar TaskHeader con ID {Id}: {Message}", id, ex.Message);
-                // Retorna 400 Bad Request
-                return BadRequest(ex.Message); 
+                return BadRequest(ex.Message);
             }
             catch (Exception ex)
             {
@@ -157,8 +168,7 @@ namespace taskslistDvpartners_backend.Controllers.tasks.taskshead
 
         // --- DELETE: Eliminar lógicamente un TaskHeader ---
         [HttpDelete("Delete/{id}")]
-        // Solo los ADM pueden eliminar lógicamente tareas
-        [Authorize(Roles = "ADM,GER")] 
+        [Authorize(Roles = "ADM,GER")]
         public async Task<IActionResult> SoftDeleteTaskHeader([FromRoute] int id)
         {
             try
@@ -172,7 +182,6 @@ namespace taskslistDvpartners_backend.Controllers.tasks.taskshead
                 }
 
                 _logger.LogInformation("TaskHeader con ID {Id} eliminado lógicamente (estado 0) exitosamente.", id);
-                // Retorna 200 OK con un mensaje y detalles del elemento "eliminado"
                 return Ok(new
                 {
                     Message = $"TaskHeader con ID '{deletedHeader.Id}' y título '{deletedHeader.Titutlo}' ha sido eliminado lógicamente.",

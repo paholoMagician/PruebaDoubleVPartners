@@ -29,13 +29,13 @@ export const Navside = ({ onSeleccionarVista, vistaActiva, userData }) => {
 
     // Definición de módulos con los roles permitidos para cada uno
     const allModulosNav = [
-        {
-            id: 'home',
-            icon: <HomeIcon />,
-            label: 'Home',
-            title: 'Regreso al dashboard principal',
-            roles: ['ADM', 'GER'] // ADM y GER pueden ver Home
-        },
+        // {
+        //     id: 'home',
+        //     icon: <HomeIcon />,
+        //     label: 'Home',
+        //     title: 'Regreso al dashboard principal',
+        //     roles: ['ADM', 'GER'] // ADM y GER pueden ver Home
+        // },
         {
             id: 'profile',
             icon: <PersonIcon />,

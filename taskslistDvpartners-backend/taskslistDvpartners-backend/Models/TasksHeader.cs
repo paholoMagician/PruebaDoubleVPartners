@@ -11,7 +11,7 @@ public partial class TasksHeader
 
     public int? Usercrea { get; set; }
 
-    public DateTime Fecrea { get; set; }
+    public DateTime? Fecrea { get; set; }
 
     public int? Iduser { get; set; }
 
@@ -22,4 +22,6 @@ public partial class TasksHeader
     public string Titutlo { get; set; }
 
     public string Observacion { get; set; }
+
+    public DateTime FechaFinal { get; set; }
 }

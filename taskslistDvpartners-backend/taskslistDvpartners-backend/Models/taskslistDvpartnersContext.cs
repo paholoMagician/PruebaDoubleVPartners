@@ -56,13 +56,18 @@ public partial class taskslistDvpartnersContext : DbContext
 
         modelBuilder.Entity<TasksHeader>(entity =>
         {
+            entity.HasKey(e => e.Id).HasName("PK_tasksHeader2");
+
             entity.ToTable("tasksHeader");
 
             entity.Property(e => e.Id).HasColumnName("id");
             entity.Property(e => e.Estado).HasColumnName("estado");
             entity.Property(e => e.EstadoTarea).HasColumnName("estadoTarea");
-            entity.Property(e => e.Fecrea)
+            entity.Property(e => e.FechaFinal)
                 .HasDefaultValueSql("(getdate())")
+                .HasColumnType("datetime")
+                .HasColumnName("fechaFinal");
+            entity.Property(e => e.Fecrea)
                 .HasColumnType("datetime")
                 .HasColumnName("fecrea");
             entity.Property(e => e.Iduser).HasColumnName("iduser");
@@ -98,7 +103,7 @@ public partial class taskslistDvpartnersContext : DbContext
                 .IsUnicode(false)
                 .HasColumnName("nombres");
             entity.Property(e => e.Password)
-                .HasMaxLength(30)
+                .HasMaxLength(100)
                 .IsUnicode(false)
                 .HasColumnName("password");
             entity.Property(e => e.Rol)

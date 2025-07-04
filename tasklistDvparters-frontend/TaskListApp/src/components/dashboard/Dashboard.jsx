@@ -44,15 +44,10 @@ export const Dashboard = () => {
                 return <Tareas userData={userData} />; // Pasa userData a Tareas
             case 'mytasks':
                 return <MyWorks userData={userData} />; // Pasa userData a Mis Tareas
-            case 'home':
+            // case 'home':
             default:
                 // Usamos userData.unique_name para el saludo, o userData.email si unique_name no existe
-                return (
-                    <div className='welcome-dashboard'>
-                        <h2>Bienvenido al Dashboard, {userData ? userData.unique_name || userData.email : 'Usuario'}!</h2> {/* <--- ¡CORREGIDO! */}
-                        <p>Aquí encontrarás un resumen de tus tareas y actividades.</p>
-                    </div>
-                );
+                return <MyWorks userData={userData} />;
         }
     };
 

@@ -339,16 +339,23 @@ export const MyTeam = ({ userData }) => {
                 </TableContainer>
             </Paper>
 
-
             <Dialog open={openDialog} onClose={handleCloseDialog} maxWidth="sm" fullWidth>
                 <DialogTitle>
                     {editMode ? 'Editar Usuario' : 'Crear Nuevo Usuario'}
                 </DialogTitle>
 
                 <DialogContent>
-                    <Box component="form" onSubmit={handleSubmit} className="dialog-form">
-                        <Grid container spacing={2}> {/* Use Grid for better layout */}
-                            <Grid item xs={12}>
+                    <Box component="form" onSubmit={handleSubmit} sx={{ mt: 2 }}>
+                        <ul style={{
+                            listStyle: 'none',
+                            padding: 0,
+                            margin: 0,
+                            '& li:not(:last-child)': {
+                                marginBottom: '16px'
+                            }
+                        }}>
+                            {/* Nombre Completo */}
+                            <li>
                                 <TextField
                                     fullWidth
                                     label="Nombre Completo"
@@ -357,9 +364,13 @@ export const MyTeam = ({ userData }) => {
                                     onChange={handleInputChange}
                                     required
                                     disabled={loading}
+                                    variant="outlined"
+                                    size="small"
                                 />
-                            </Grid>
-                            <Grid item xs={12}>
+                            </li>
+
+                            {/* Email */}
+                            <li>
                                 <TextField
                                     fullWidth
                                     label="Email"
@@ -369,11 +380,14 @@ export const MyTeam = ({ userData }) => {
                                     onChange={handleInputChange}
                                     required
                                     disabled={loading}
+                                    variant="outlined"
+                                    size="small"
                                 />
-                            </Grid>
-                            {/* CONDITIONAL RENDERING OF PASSWORD FIELD */}
+                            </li>
+
+                            {/* Contraseña (solo para creación) */}
                             {!editMode && (
-                                <Grid item xs={12}>
+                                <li>
                                     <TextField
                                         fullWidth
                                         label="Contraseña"
@@ -381,24 +395,29 @@ export const MyTeam = ({ userData }) => {
                                         type={showPassword ? 'text' : 'password'}
                                         value={formData.Password}
                                         onChange={handleInputChange}
-                                        required={!editMode} // Password is only required for creation
+                                        required={!editMode}
                                         disabled={loading}
+                                        variant="outlined"
+                                        size="small"
                                         InputProps={{
                                             endAdornment: (
                                                 <InputAdornment position="end">
                                                     <IconButton
                                                         onClick={handleClickShowPassword}
                                                         edge="end"
+                                                        size="small"
                                                     >
-                                                        {showPassword ? <VisibilityOffIcon /> : <VisibilityIcon />}
+                                                        {showPassword ? <VisibilityOffIcon fontSize="small" /> : <VisibilityIcon fontSize="small" />}
                                                     </IconButton>
                                                 </InputAdornment>
                                             ),
                                         }}
                                     />
-                                </Grid>
+                                </li>
                             )}
-                            <Grid item xs={12}>
+
+                            {/* Rol */}
+                            <li>
                                 <TextField
                                     fullWidth
                                     select
@@ -408,14 +427,18 @@ export const MyTeam = ({ userData }) => {
                                     onChange={handleInputChange}
                                     required
                                     disabled={loading}
+                                    variant="outlined"
+                                    size="small"
                                 >
                                     <MenuItem value="ADM">Administrador</MenuItem>
                                     <MenuItem value="GER">Supervisor</MenuItem>
                                     <MenuItem value="NOR">Empleado</MenuItem>
                                 </TextField>
-                            </Grid>
-                            {editMode && ( // Only show status dropdown in edit mode
-                                <Grid item xs={12}>
+                            </li>
+
+                            {/* Estado (solo para edición) */}
+                            {editMode && (
+                                <li>
                                     <TextField
                                         fullWidth
                                         select
@@ -425,18 +448,25 @@ export const MyTeam = ({ userData }) => {
                                         onChange={handleInputChange}
                                         required
                                         disabled={loading}
+                                        variant="outlined"
+                                        size="small"
                                     >
                                         <MenuItem value={1}>Activo</MenuItem>
                                         <MenuItem value={0}>Inactivo</MenuItem>
                                     </TextField>
-                                </Grid>
+                                </li>
                             )}
-                        </Grid>
+                        </ul>
                     </Box>
                 </DialogContent>
 
-                <DialogActions>
-                    <Button onClick={handleCloseDialog} disabled={loading}>
+                <DialogActions sx={{ px: 3, py: 2 }}>
+                    <Button
+                        onClick={handleCloseDialog}
+                        disabled={loading}
+                        variant="outlined"
+                        size="small"
+                    >
                         Cancelar
                     </Button>
                     <Button
@@ -444,11 +474,13 @@ export const MyTeam = ({ userData }) => {
                         variant="contained"
                         disabled={loading}
                         startIcon={loading ? <CircularProgress size={20} /> : null}
+                        size="small"
                     >
                         {editMode ? 'Actualizar' : 'Crear'}
                     </Button>
                 </DialogActions>
             </Dialog>
+
         </Box>
     );
 };

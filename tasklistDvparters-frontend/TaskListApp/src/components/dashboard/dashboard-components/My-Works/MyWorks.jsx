@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { getTasks, updateTask } from '../Tareas/services/Tareas.services';
 import './MyWorks.css';
 import Swal from 'sweetalert2'; // Importamos SweetAlert2
@@ -65,8 +65,13 @@ const SortableTaskCard = ({ task, id, onTaskClick }) => {
   );
 };
 
-export const MyWorks = () => {
+// eslint-disable-next-line no-unused-vars
+export const MyWorks = ({ userData }) => {
+
+
+
   const [tasks, setTasks] = useState([]);
+  // eslint-disable-next-line no-unused-vars
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
 
@@ -79,6 +84,10 @@ export const MyWorks = () => {
     setLoading(true);
     setError(null);
     try {
+      // console.log('userData desde MyWorks')
+      // console.log(userData)
+      // console.log(2)
+
       const allTasks = await getTasks(1);
       setTasks(allTasks);
     } catch (err) {

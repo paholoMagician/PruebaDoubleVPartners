@@ -1,16 +1,16 @@
 import { useState, useEffect } from 'react';
 
 import {
-    PersonOutlined as PersonIcon
+    PersonOutlined as PersonIcon,
+    Visibility,
+    VisibilityOff,
+    Update as UpdateIcon
 } from '@mui/icons-material';
 
 import {
     Typography, Box, Paper, TextField, Button, Grid, MenuItem, Alert, CircularProgress,
     InputAdornment, IconButton, List, ListItem
 } from '@mui/material';
-import Visibility from '@mui/icons-material/Visibility';
-import VisibilityOff from '@mui/icons-material/VisibilityOff';
-import UpdateIcon from '@mui/icons-material/Update';
 
 import { updateUserService } from './services/user.services';
 import './MiPerfil.css';
@@ -35,7 +35,6 @@ export const MiPerfil = ({ userData }) => {
                 setError(null);
             }
         }, 3000);
-
         return () => clearTimeout(timer);
     }, [successMessage, error]);
 
@@ -74,7 +73,7 @@ export const MiPerfil = ({ userData }) => {
                 Nombres: formData.Nombres,
                 Email: formData.Email,
                 Password: formData.Password === '' ? null : formData.Password,
-                Estado: 1, // Siempre enviamos 1 (Activo)
+                Estado: 1,
                 Rol: formData.Rol
             };
 
@@ -103,91 +102,81 @@ export const MiPerfil = ({ userData }) => {
                 <PersonIcon fontSize="large" sx={{ fontSize: '2.5rem' }} />
                 Mi Perfil
             </Typography>
+
             <Paper elevation={3} sx={{ p: 3, mt: 2 }} className="mi-perfil-paper">
                 {error && <Alert severity="error" sx={{ mb: 2 }}>{error}</Alert>}
                 {successMessage && <Alert severity="success" sx={{ mb: 2 }}>{successMessage}</Alert>}
 
                 <Box component="form" onSubmit={handleSubmit} noValidate>
-                    <List sx={{ width: '100%' }}>
-                        {/* Grupo 1: Nombre completo y Correo electrónico */}
-                        <ListItem sx={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', p: 0 }}>
-                            <Grid container spacing={3}>
-                                <Grid item xs={12} sm={6}>
-                                    <TextField
-                                        fullWidth
-                                        label="Nombre Completo"
-                                        name="Nombres"
-                                        value={formData.Nombres}
-                                        onChange={handleChange}
-                                        margin="normal"
-                                        required
-                                        disabled={loading}
-                                    />
-                                </Grid>
-                                <Grid item xs={12} sm={6}>
-                                    <TextField
-                                        fullWidth
-                                        label="Correo Electrónico"
-                                        name="Email"
-                                        type="email"
-                                        value={formData.Email}
-                                        onChange={handleChange}
-                                        margin="normal"
-                                        required
-                                        disabled={loading}
-                                    />
-                                </Grid>
-                            </Grid>
+                    <List sx={{ width: '100%', listStyle: 'none', p: 0 }}>
+                        <ListItem component="li" sx={{ p: 0, mb: 2 }}>
+                            <TextField
+                                fullWidth
+                                label="Nombre Completo"
+                                name="Nombres"
+                                value={formData.Nombres}
+                                onChange={handleChange}
+                                margin="normal"
+                                required
+                                disabled={loading}
+                            />
                         </ListItem>
-
-                        {/* Grupo 2: Contraseña y Rol */}
-                        <ListItem sx={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', p: 0, mt: 2 }}>
-                            <Grid container spacing={3}>
-                                <Grid item xs={12} sm={4}>
-                                    <TextField
-                                        fullWidth
-                                        label="Nueva Contraseña"
-                                        name="Password"
-                                        type={showPassword ? 'text' : 'password'}
-                                        value={formData.Password}
-                                        onChange={handleChange}
-                                        margin="normal"
-                                        disabled={loading}
-                                        InputProps={{
-                                            endAdornment: (
-                                                <InputAdornment position="end">
-                                                    <IconButton
-                                                        aria-label="toggle password visibility"
-                                                        onClick={handleClickShowPassword}
-                                                        onMouseDown={handleMouseDownPassword}
-                                                        edge="end"
-                                                    >
-                                                        {showPassword ? <VisibilityOff /> : <Visibility />}
-                                                    </IconButton>
-                                                </InputAdornment>
-                                            ),
-                                        }}
-                                        helperText="Dejar en blanco para no cambiar la contraseña."
-                                    />
-                                </Grid>
-                                <Grid item xs={12} sm={8}>
-                                    <TextField
-                                        fullWidth
-                                        select
-                                        label="Rol"
-                                        name="Rol"
-                                        value={formData.Rol}
-                                        onChange={handleChange}
-                                        margin="normal"
-                                        required
-                                        disabled={loading}
-                                    >
-                                        <MenuItem value="ADM">Administrador</MenuItem>
-                                        <MenuItem value="GER">Supervisor</MenuItem>
-                                        <MenuItem value="NOR">Empleado</MenuItem>
-                                    </TextField>
-                                </Grid>
-                            </Grid>
+                        <ListItem component="li" sx={{ p: 0, mb: 2 }}>
+                            <TextField
+                                fullWidth
+                                label="Correo Electrónico"
+                                name="Email"
+                                type="email"
+                                value={formData.Email}
+                                onChange={handleChange}
+                                margin="normal"
+                                required
+                                disabled={loading}
+                            />
+                        </ListItem>
+                        <ListItem component="li" sx={{ p: 0, mb: 2 }}>
+                            <TextField
+                                fullWidth
+                                label="Nueva Contraseña"
+                                name="Password"
+                                type={showPassword ? 'text' : 'password'}
+                                value={formData.Password}
+                                onChange={handleChange}
+                                margin="normal"
+                                disabled={loading}
+                                InputProps={{
+                                    endAdornment: (
+                                        <InputAdornment position="end">
+                                            <IconButton
+                                                aria-label="toggle password visibility"
+                                                onClick={handleClickShowPassword}
+                                                onMouseDown={handleMouseDownPassword}
+                                                edge="end"
+                                            >
+                                                {showPassword ? <VisibilityOff /> : <Visibility />}
+                                            </IconButton>
+                                        </InputAdornment>
+                                    ),
+                                }}
+                                helperText="Dejar en blanco para no cambiar la contraseña."
+                            />
+                        </ListItem>
+                        <ListItem component="li" sx={{ p: 0, mb: 2 }}>
+                            <TextField
+                                fullWidth
+                                select
+                                label="Rol"
+                                name="Rol"
+                                value={formData.Rol}
+                                onChange={handleChange}
+                                margin="normal"
+                                required
+                                disabled={loading}
+                            >
+                                <MenuItem value="ADM">Administrador</MenuItem>
+                                <MenuItem value="GER">Supervisor</MenuItem>
+                                <MenuItem value="NOR">Empleado</MenuItem>
+                            </TextField>
                         </ListItem>
                     </List>
 

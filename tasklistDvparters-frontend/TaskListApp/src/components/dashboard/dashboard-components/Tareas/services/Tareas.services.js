@@ -1,5 +1,6 @@
 // import { API_BASE_URL } from '../config'; // Asegúrate de que esta ruta sea correcta
 
+// CREAR UN ARCHIVO CONFIG
 const API_BASE_URL = 'https://localhost:7275';
 const API_URL = `${API_BASE_URL}/api/TaskHeader`;
 
@@ -31,7 +32,6 @@ const authorizedFetch = async (url, options = {}) => {
         if (response.status === 401) {
             console.error("Error 401: Token inválido o no proporcionado. Redirigiendo a login.");
             sessionStorage.removeItem('jwt_token'); // <--- CAMBIO AQUÍ: Limpiar token de sessionStorage
-            sessionStorage.removeItem('userData'); // Si también guardas userData en sessionStorage, límpialo aquí
             window.location.href = '/login'; // Redirigir a la página de login
             throw new Error("No autorizado. Por favor, inicie sesión nuevamente.");
         }
@@ -39,10 +39,12 @@ const authorizedFetch = async (url, options = {}) => {
         const action = options.method === 'POST' ? 'crear' : options.method === 'PUT' ? 'actualizar' : 'obtener';
         throw new Error(errorData.message || `Error al ${action} la tarea: ${response.statusText}`);
     }
+
     return response.json();
 };
 
 export const getTasks = async (estado) => {
+    console.warn('API CONSUMIENDOSE: ' + `${API_URL}/GetAll/${estado}`)
     return authorizedFetch(`${API_URL}/GetAll/${estado}`, { method: 'GET' });
 };
 

@@ -6,7 +6,7 @@ import {
     Table, TableBody, TableCell, TableFooter, TablePagination, TableContainer, TableHead,
     TableRow, IconButton, Dialog, DialogTitle, DialogContent,
     DialogActions, CircularProgress, Alert, Snackbar,
-    Chip // Añadido para mostrar el estado
+    Chip
 } from '@mui/material';
 import {
     Add as AddIcon,
@@ -19,7 +19,10 @@ import moment from 'moment'; // Para formatear fechas
 export const Tareas = ({ userData }) => {
 
     const [tasks, setTasks] = useState([]);
-    const [users, setUsers] = useState([]); // Para almacenar usuarios para el desplegable de asignación
+    // Ya no necesitamos 'users' aquí para resolver el UserName,
+    // porque el backend ya lo envía.
+    // Solo se necesita para el dropdown de asignación.
+    const [users, setUsers] = useState([]);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(null);
     const [success, setSuccess] = useState(null);
@@ -45,15 +48,17 @@ export const Tareas = ({ userData }) => {
 
     useEffect(() => {
         fetchTasks();
-        fetchUsersForDropdown(); // Obtener usuarios cuando el componente se monta
+        fetchUsersForDropdown(); // Obtener usuarios para el desplegable
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [filterEstado]); // Vuelve a obtener tareas cuando filterEstado cambia
 
     const fetchTasks = async () => {
         setLoading(true);
         try {
-            const response = await getTasks(filterEstado); // Usa filterEstado
-            setTasks(response); // Asumiendo que el backend devuelve un array directamente
+            const response = await getTasks(filterEstado);
+            console.table(response)
+            // El backend ahora devuelve TaskHeaderResponseDto, que incluye UserName
+            setTasks(response);
         } catch (err) {
             setError(err.message);
         } finally {
@@ -65,7 +70,9 @@ export const Tareas = ({ userData }) => {
         try {
             // Obtener solo usuarios activos (Estado = 1)
             const response = await getUsers(1);
-            setUsers(response.data); // Asumiendo que getUsers devuelve { data: [...] }
+            // Asumiendo que getUsers ahora devuelve un array de usuarios directamente
+            // Si getUsers devuelve { data: [...] }, usa response.data
+            setUsers(response.data || response);
         } catch (err) {
             console.error("Error al obtener usuarios para el desplegable:", err.message);
             setError("Error al cargar la lista de usuarios para asignar.");
@@ -75,10 +82,10 @@ export const Tareas = ({ userData }) => {
     const handleOpenCreateDialog = () => {
         setFormData({
             Iduser: '',
-            EstadoTarea: 1, // Por defecto a Pendiente
+            EstadoTarea: 1,
             Titutlo: '',
             Observacion: '',
-            Estado: 1 // Por defecto a activo
+            Estado: 1
         });
         setEditMode(false);
         setCurrentTask(null);
@@ -116,11 +123,9 @@ export const Tareas = ({ userData }) => {
 
         try {
             if (editMode && currentTask) {
-                // No es necesario eliminar 'Password' ya que no está en formData para tareas
                 await updateTask(currentTask.id, formData);
                 setSuccess('Tarea actualizada exitosamente');
             } else {
-                // Para la creación, añade Usercrea del usuario logueado
                 const dataToCreate = { ...formData };
                 await createTask(dataToCreate);
                 setSuccess('Tarea creada exitosamente');
@@ -141,7 +146,7 @@ export const Tareas = ({ userData }) => {
         try {
             await softDeleteTask(taskId);
             setSuccess('Tarea eliminada lógicamente exitosamente');
-            fetchTasks(); // Actualiza la lista para mostrar la tarea como inactiva
+            fetchTasks();
         } catch (err) {
             setError(err.message);
         } finally {
@@ -155,9 +160,9 @@ export const Tareas = ({ userData }) => {
     };
 
     const filteredTasks = tasks.filter((task) =>
-        task.titutlo.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        task.observacion.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        (task.iduser && users.find(u => u.id === task.iduser)?.nombres.toLowerCase().includes(searchTerm.toLowerCase()))
+        task.titutlo?.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        task.observacion?.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        task.nombreAsignado?.toLowerCase().includes(searchTerm.toLowerCase())
     );
 
     const paginatedTasks = filteredTasks.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage);
@@ -206,9 +211,8 @@ export const Tareas = ({ userData }) => {
                 >
                     <MenuItem value={1}>Activas</MenuItem>
                     <MenuItem value={0}>Inactivas</MenuItem>
-                    {/* Añade otros estados si aplica, por ejemplo, para EstadoTarea */}
                 </TextField>
-                {userData?.role === 'ADM' || userData?.role === 'GER' ? ( // ADM y USR pueden crear tareas
+                {userData?.role === 'ADM' || userData?.role === 'GER' ? (
                     <Button
                         variant="contained"
                         startIcon={<AddIcon />}
@@ -218,7 +222,6 @@ export const Tareas = ({ userData }) => {
                     </Button>
                 ) : null}
             </Box>
-
             <Paper elevation={3}>
                 <TableContainer>
                     <Table>
@@ -230,44 +233,51 @@ export const Tareas = ({ userData }) => {
                                 <TableCell>Observación</TableCell>
                                 <TableCell>Fecha Creación</TableCell>
                                 <TableCell>Creada Por</TableCell>
+                                <TableCell>Fecha Finalización</TableCell>
                                 <TableCell>Estado Registro</TableCell>
                                 <TableCell>Acciones</TableCell>
                             </TableRow>
                         </TableHead>
+
                         <TableBody>
                             {loading && !tasks.length ? (
                                 <TableRow>
-                                    <TableCell colSpan={8} align="center">
+                                    <TableCell colSpan={9} align="center">
                                         <CircularProgress />
                                     </TableCell>
                                 </TableRow>
                             ) : (
                                 paginatedTasks.map((task) => {
-                                    const assignedUser = users.find(u => u.id === task.iduser);
-                                    const createdByUser = users.find(u => u.id === task.usercrea); // Asumiendo que usercrea es el ID
                                     const taskStatus = getEstadoTareaDisplay(task.estadoTarea);
-                                    const recordStatus = task.estado === 1 ? { text: 'Activo', color: 'success' } : { text: 'Inactivo', color: 'error' };
+                                    const recordStatus = task.estado === 1
+                                        ? { text: 'Activo', color: 'success' }
+                                        : { text: 'Inactivo', color: 'error' };
 
                                     return (
                                         <TableRow key={task.id}>
                                             <TableCell>{task.titutlo}</TableCell>
-                                            <TableCell>{assignedUser ? assignedUser.nombres : 'N/A'}</TableCell>
+                                            <TableCell>{task.nombreAsignado || 'N/A'}</TableCell>
                                             <TableCell>
                                                 <Chip label={taskStatus.text} color={taskStatus.color} size="small" />
                                             </TableCell>
                                             <TableCell>{task.observacion}</TableCell>
                                             <TableCell>{moment(task.fecrea).format('DD/MM/YYYY HH:mm')}</TableCell>
-                                            <TableCell>{createdByUser ? createdByUser.nombres : 'N/A'}</TableCell>
+                                            <TableCell>{task.nombreCreador || 'N/A'}</TableCell>
+                                            <TableCell>
+                                                {task.fechaFinal
+                                                    ? moment(task.fechaFinal).format('DD/MM/YYYY HH:mm')
+                                                    : 'N/A'}
+                                            </TableCell>
                                             <TableCell>
                                                 <Chip label={recordStatus.text} color={recordStatus.color} size="small" />
                                             </TableCell>
                                             <TableCell>
-                                                {(userData?.role === 'ADM' || userData?.role === 'USR') && task.estado === 1 && ( // Solo tareas activas pueden ser editadas/eliminadas por ADM/USR
+                                                {(userData?.role === 'ADM' || userData?.role === 'USR') && task.estado === 1 && (
                                                     <>
                                                         <IconButton onClick={() => handleOpenEditDialog(task)}>
                                                             <EditIcon color="primary" />
                                                         </IconButton>
-                                                        {userData?.role === 'ADM' && ( // Solo ADM puede eliminar lógicamente
+                                                        {userData?.role === 'ADM' && (
                                                             <IconButton onClick={() => handleDelete(task.id)}>
                                                                 <DeleteIcon color="error" />
                                                             </IconButton>
@@ -280,7 +290,6 @@ export const Tareas = ({ userData }) => {
                                 })
                             )}
                         </TableBody>
-
                         <TableFooter>
                             <TableRow>
                                 <TablePagination
@@ -299,7 +308,6 @@ export const Tareas = ({ userData }) => {
                     </Table>
                 </TableContainer>
             </Paper>
-
             <Dialog
                 open={openDialog}
                 onClose={handleCloseDialog}
@@ -412,8 +420,6 @@ export const Tareas = ({ userData }) => {
                     </Button>
                 </DialogActions>
             </Dialog>
-
-
         </Box>
     );
 };

@@ -12,6 +12,7 @@ namespace taskslistDvpartners_backend.ModelsDto
             public string Titutlo { get; set; }
             public string Observacion { get; set; }
             public int? Estado { get; set; }
+
         }
 
     }
